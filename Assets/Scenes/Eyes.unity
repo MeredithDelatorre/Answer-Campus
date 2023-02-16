@@ -731,7 +731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11439994, guid: 1916cd3a24f44314f8d9371a67365d9e, type: 3}
       propertyPath: level_to_load
-      value: Eyes
+      value: Relationships
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1916cd3a24f44314f8d9371a67365d9e, type: 3}
@@ -22978,6 +22978,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &905719741
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1406608913}
+    m_Modifications:
+    - target: {fileID: 173796, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_Name
+      value: Exit Actor
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 192.52957
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 118.55607
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11471904, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+      propertyPath: actor_name
+      value: Deepak
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+--- !u!4 &905719742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
+  m_PrefabInstance: {fileID: 905719741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &910786645
 GameObject:
   m_ObjectHideFlags: 0
@@ -25141,7 +25207,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1406608913}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1204335212
 MonoBehaviour:
@@ -28827,7 +28893,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1406608913}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1298596840
 AudioSource:
@@ -29239,6 +29305,7 @@ Transform:
   - {fileID: 1908476858}
   - {fileID: 336824593}
   - {fileID: 1015834935}
+  - {fileID: 905719742}
   - {fileID: 1298596839}
   - {fileID: 1204335211}
   m_Father: {fileID: 0}

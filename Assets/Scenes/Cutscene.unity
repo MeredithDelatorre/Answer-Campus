@@ -523,11 +523,11 @@ PrefabInstance:
       objectReference: {fileID: 1402660770}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: sceneToLoad
-      value: Tutorial
+      value: In The Text
       objectReference: {fileID: 0}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: sentences.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: timeBetweenSentences
@@ -535,11 +535,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: sentences.Array.data[0]
-      value: It's your first day of college.
+      value: Humanities Building, 10 am, Tuesday, Oct. 3rd
       objectReference: {fileID: 0}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: sentences.Array.data[1]
-      value: You just moved in to your dorm room.
+      value: Your new roommate is here.
       objectReference: {fileID: 0}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: sentences.Array.data[2]

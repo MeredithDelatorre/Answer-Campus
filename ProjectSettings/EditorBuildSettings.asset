@@ -18,12 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Limp.unity
     guid: efd8f382a19335f409f8f533f15861ed
   - enabled: 1
-    path: Assets/Scenes/Presentation.unity
-    guid: 4efc7b695594a1a45a755dfce551e046
+    path: Assets/Scenes/Competition.unity
+    guid: a6648ec25bcfd924ca1d7c774dc69e6d
   - enabled: 1
     path: Assets/Scenes/Eyes.unity
     guid: bd0d79f3f970986438ecb701f75fa813
   - enabled: 1
     path: Assets/Scenes/Relationships.unity
     guid: 873707548fe578d4c8bb233c68bb7cb4
+  - enabled: 0
+    path: Assets/Scenes/Presentation.unity
+    guid: 4efc7b695594a1a45a755dfce551e046
   m_configObjects: {}

@@ -13110,9 +13110,9 @@ MonoBehaviour:
   Button_Events:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 185770491}
+      - m_Target: {fileID: 185770492}
         m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Start_Conversation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13889,7 +13889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11439994, guid: 1916cd3a24f44314f8d9371a67365d9e, type: 3}
       propertyPath: level_to_load
-      value: Presentation
+      value: Competition
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1916cd3a24f44314f8d9371a67365d9e, type: 3}

@@ -12,21 +12,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscene.unity
     guid: 843dd3afc44fe104db0ecf888a45d1bf
   - enabled: 1
+    path: Assets/Scenes/Competition.unity
+    guid: a6648ec25bcfd924ca1d7c774dc69e6d
+  - enabled: 1
     path: Assets/Scenes/In The Text.unity
     guid: 192438921b64b6440a49b05267836cd4
   - enabled: 1
     path: Assets/Scenes/Limp.unity
     guid: efd8f382a19335f409f8f533f15861ed
   - enabled: 1
-    path: Assets/Scenes/Competition.unity
-    guid: a6648ec25bcfd924ca1d7c774dc69e6d
-  - enabled: 1
     path: Assets/Scenes/Eyes.unity
     guid: bd0d79f3f970986438ecb701f75fa813
   - enabled: 1
     path: Assets/Scenes/Relationships.unity
     guid: 873707548fe578d4c8bb233c68bb7cb4
-  - enabled: 0
-    path: Assets/Scenes/Presentation.unity
-    guid: 4efc7b695594a1a45a755dfce551e046
+  - enabled: 1
+    path: Assets/Scenes/JustACompliment.unity
+    guid: bcf2e1cc15c69384e9661eee4fbf8019
+  - enabled: 1
+    path: Assets/Scenes/StudyHall.unity
+    guid: d18edf14d76f03c40860cb7ca74be46c
+  - enabled: 1
+    path: Assets/Scenes/CanITouchYourHair.unity
+    guid: 7700e3fbd2abcef4ba3fc99e1b0e90fc
   m_configObjects: {}

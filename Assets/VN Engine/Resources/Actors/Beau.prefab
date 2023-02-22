@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 11486432}
   - component: {fileID: 11430486}
   m_Layer: 5
-  m_Name: Breanna
+  m_Name: Beau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 851c133552fb9a54389c4b20c19d0c28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 88ac425acae3ff64cae28227c25b31ab, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59ca6937d41114c4f8d9532b288dcbc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actor_name: Breanna
+  actor_name: Beau
   position: 2
   custom_position: {fileID: 0}
   rect: {fileID: 0}

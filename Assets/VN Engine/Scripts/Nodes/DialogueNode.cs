@@ -126,7 +126,8 @@ namespace VNEngine
             if (log_text)
             {
                 // Record what was said in the log so players can go back and read anything they missed
-                VNSceneManager.scene_manager.Add_To_Log(UIManager.ui_manager.speaker_panel.text, text, log_category:this.log_category);
+//REMOVED, TOO MANY DIALOG NODES TO CHANGE RIGHT NOW!
+//                VNSceneManager.scene_manager.Add_To_Log(UIManager.ui_manager.speaker_panel.text, text, log_category:this.log_category);
             }
 
             if (clear_text_after)

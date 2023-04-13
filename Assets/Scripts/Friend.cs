@@ -19,6 +19,7 @@ public class Friend : MonoBehaviour
     void Start()
     {
         int current_status = PlayerPrefs.GetInt(characterName, 0);
+        Debug.Log(characterName + ": " + current_status);
         if(randomize)
         {
             current_status = Random.Range(0, statusTypes.Length);

@@ -1,18 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SceneManagement;
+
 
 public class CutsceneScript : MonoBehaviour
 {
     public TextMeshProUGUI display;
     public string[] sentences;
     public float timeBetweenSentences;
-    public string sceneToLoad;
+
+    public GameObject exterior;
+    public GameObject story;
+
     private float nextSentenceTime;
     private int sentenceIndex = 0;
     private int loadSequence = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -50,9 +55,34 @@ public class CutsceneScript : MonoBehaviour
 
         if(loadSequence == 1)
         {
-            SceneManager.LoadScene(sceneToLoad);
+            display.gameObject.SetActive(false);
+            exterior.SetActive(true);
             loadSequence = 2;
-                 
+        }
+
+        if(loadSequence == 2)
+        {
+            if(exterior.GetComponent<Image>())
+            {
+                if (exterior.GetComponent<Image>().color == Color.black)
+                {
+                    loadSequence = 3;
+                }
+
+            }
+            else
+            {
+                Debug.Log("No image found, moving to next sequence...");
+                loadSequence = 3;
+            }
+
+        }
+
+        if(loadSequence == 3)
+        {
+            story.SetActive(true);
+            this.gameObject.SetActive(false);
+
         }
 
     }

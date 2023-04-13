@@ -14,9 +14,10 @@ public class SaveProgress : MonoBehaviour
     }
 
     public string nextScene;
+
     [SerializeField]
     public CharacterRelationship[] relationships;
-    
+
     public void SetNextScene()
     {
         PlayerPrefs.SetString("Next Scene", nextScene);
@@ -31,8 +32,14 @@ public class SaveProgress : MonoBehaviour
         }
     }
 
+    public void Reset()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
     public void Save()
     {
+        Debug.Log("Saving Progress...");
         UpdateFriendship();
         SetNextScene();
     }

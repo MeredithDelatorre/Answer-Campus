@@ -292,7 +292,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Image (11)
+      value: Change Image - Breanna
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
@@ -344,7 +344,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: e8821020665d2dc4196b305e0ad5765c, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
-      value: Breanna
+      value: Breanna2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
@@ -1288,7 +1288,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Image (21)
+      value: Change Image (21) - Breanna
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
@@ -1340,7 +1340,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: e8821020665d2dc4196b305e0ad5765c, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
-      value: Breanna
+      value: Breanna2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
@@ -3716,6 +3716,10 @@ PrefabInstance:
     - target: {fileID: 1489825912919194157, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024090837067347461, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+      propertyPath: m_text
+      value: Relationships
       objectReference: {fileID: 0}
     - target: {fileID: 3217995655533917111, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_IsActive
@@ -10168,7 +10172,7 @@ MonoBehaviour:
   fetch_localized_stat_value: 0
   dialogue_from: 0
   localized_key: 
-  text: '"Okay, now you''re really trippin! We''re nothing like them!'
+  text: Okay, now you're really trippin! We're nothing like them!
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
   bring_speaker_to_front: 1
@@ -13068,7 +13072,7 @@ GameObject:
   - component: {fileID: 253534258}
   - component: {fileID: 253534257}
   m_Layer: 0
-  m_Name: Dialogue - Breanna (1)
+  m_Name: Dialogue - Breanna (1) - Confusion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22419,7 +22423,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Breanna Image
+      value: Change Breanna Image - Happy
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
@@ -36972,7 +36976,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Image (23)
+      value: Change Image (23) - Breanna
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
@@ -37024,7 +37028,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: b938fa39f262c0149a8d1f198647832f, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
-      value: Breanna
+      value: Breanna2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
@@ -37712,7 +37716,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Breanna Image
+      value: Change Breanna Image - Confused
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
@@ -39142,7 +39146,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Image (11)
+      value: Change Image Breanna
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
@@ -39194,7 +39198,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: e8821020665d2dc4196b305e0ad5765c, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
-      value: Breanna
+      value: Breanna2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
@@ -40131,6 +40135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Corkboard
+  loadSceneOnStart: 0
 --- !u!1001 &865006004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43546,7 +43551,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Image (18)
+      value: Change Breanna Image Confused
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
@@ -43598,7 +43603,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: c9a211d11d2b7054cbcf2d8d890551d9, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
-      value: Breanna
+      value: Breanna2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
@@ -64293,7 +64298,7 @@ MonoBehaviour:
   nextScene: Just a Compliment
   relationships:
   - character: Breanna
-    relationship: 2
+    relationship: 1
   - character: Matthew
     relationship: 2
 --- !u!1001 &1230446871
@@ -73381,7 +73386,7 @@ MonoBehaviour:
   nextScene: Just a Compliment
   relationships:
   - character: Breanna
-    relationship: 2
+    relationship: 1
   - character: Matthew
     relationship: 1
 --- !u!1 &1422557832
@@ -101043,7 +101048,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_Name
-      value: Change Breanna Image
+      value: Change Breanna Image - Happy
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder

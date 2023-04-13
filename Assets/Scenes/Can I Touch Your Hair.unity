@@ -34642,7 +34642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2024090837067347461, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_text
-      value: 
+      value: Can I Touch Your Hair?
       objectReference: {fileID: 0}
     - target: {fileID: 3198056218643380636, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_Sprite
@@ -47689,6 +47689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Corkboard
+  loadSceneOnStart: 0
 --- !u!1 &2133789375
 GameObject:
   m_ObjectHideFlags: 0

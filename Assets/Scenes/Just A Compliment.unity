@@ -15209,6 +15209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Corkboard
+  loadSceneOnStart: 0
 --- !u!4 &309694763
 Transform:
   m_ObjectHideFlags: 0
@@ -94542,6 +94543,10 @@ PrefabInstance:
     - target: {fileID: 1489825912919194157, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024090837067347461, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+      propertyPath: m_text
+      value: It's Just a Compliment
       objectReference: {fileID: 0}
     - target: {fileID: 3217995655533917111, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_IsActive

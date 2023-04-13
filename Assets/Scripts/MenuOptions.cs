@@ -6,6 +6,24 @@ using UnityEngine.SceneManagement;
 public class MenuOptions : MonoBehaviour
 {
     public string sceneToLoad;
+    public bool loadSceneOnStart = false;
+
+    private void Start()
+    {
+        if(loadSceneOnStart)
+        {
+            if(PlayerPrefs.HasKey("Game in Progress"))
+            {
+
+            }
+            else
+            {
+                LoadScene(sceneToLoad);
+                this.gameObject.SetActive(false);
+                PlayerPrefs.SetInt("Game in Progress", 1);
+            }
+        }
+    }
     public void LoadNextScene()
     {
         sceneToLoad = PlayerPrefs.GetString("Next Scene", sceneToLoad);

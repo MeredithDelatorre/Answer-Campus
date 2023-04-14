@@ -2310,6 +2310,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2744071241330020085, guid: 055d54775d5803f47a39dc9b66c29a8f, type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5656565936164732087, guid: 055d54775d5803f47a39dc9b66c29a8f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -2740,7 +2744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   go_to_next_node: 1
   executed_from_load: 0
-  sprite: {fileID: 21300000, guid: 6fabd3e511d79174dace4f881d158a50, type: 3}
+  sprite: {fileID: 21300000, guid: 91e78d8514a9869419ffca2a429b90f3, type: 3}
   set_foreground: 0
   fade_out: 0
   fade_in: 1
@@ -5126,7 +5130,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -6044,6 +6048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Corkboard
+  loadSceneOnStart: 0
 --- !u!4 &1744048298
 Transform:
   m_ObjectHideFlags: 0

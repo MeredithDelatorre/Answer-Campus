@@ -3721,6 +3721,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Relationships
       objectReference: {fileID: 0}
+    - target: {fileID: 3198056218643380636, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8b3b9eaafd142f846a0b13a980321391, type: 3}
     - target: {fileID: 3217995655533917111, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_IsActive
       value: 0

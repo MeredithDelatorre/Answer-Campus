@@ -232,15 +232,18 @@ namespace VNEngine
         {
             is_moving = false;
             // Move towards desired position if we are not at our desired position
+
+
+
             if (this.rect.localPosition != desired_position)
             {
+                
                 this.rect.localPosition = Vector3.Lerp(this.rect.localPosition, desired_position, 3f * Time.deltaTime);
                 //this.transform.position = Vector3.Lerp(this.transform.position, desired_position, 3f * Time.deltaTime);
-
+                
                 if (Vector2.Distance(this.rect.localPosition, desired_position) > 1f)
                     is_moving = true;
             }
-
             // If sliding out, check if we're visible. If we're not visible, remove the actor
             if (remove_when_out_of_sight && Mathf.Abs(this.rect.localPosition.x - desired_position.x) <= 30)
             {

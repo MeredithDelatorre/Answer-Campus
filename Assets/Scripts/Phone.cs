@@ -4,30 +4,23 @@ using UnityEngine;
 using TMPro;
 public class Phone : MonoBehaviour
 {
+    public TextMeshProUGUI textMessage;
+    private string[] messages;
 
-    public GameObject notificationBadge;
-    public TextMeshProUGUI numberOfNewPosts;
+    public GameObject unlockedPhonePanel;
+    public GameObject typingPanel;
+    
+
     // Start is called before the first frame update
     void Start()
     {
-        int totalPosts = PlayerPrefs.GetInt("posts", 0);
-        int readPosts = PlayerPrefs.GetInt("posts_read", 0);
-        int newPostCount = totalPosts - readPosts;
-        numberOfNewPosts.text = newPostCount.ToString();
-        if(newPostCount > 0)
-        {
-            notificationBadge.SetActive(true);
-            GetComponent<Animator>().SetTrigger("vibrate");
-        }
-        else
-        {
-            notificationBadge.SetActive(false);
-        }
     }
 
-    public void CheckedMessages()
+
+    public void Notify(string[] msg)
     {
-        GetComponent<Animator>().SetTrigger("checked");
+        messages = msg;
+        textMessage.text = messages[0];
     }
 
 }

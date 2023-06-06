@@ -130,9 +130,16 @@ namespace VNEngine
             // Place actor at custom position
             if (destination == Actor_Positions.CUSTOM && custom_position != null)
             {
+                Vector3 bottomPosition = new Vector3(custom_position.GetComponent<RectTransform>().position.x, -1000);
+                a.transform.position = bottomPosition;
                 //a.rect.localPosition = custom_position.position;
-                a.desired_position = new Vector3(custom_position.GetComponent<RectTransform>().localPosition.x,
-                                                custom_position.GetComponent<RectTransform>().localPosition.y * a.transform.localScale.y);
+//                a.desired_position = new Vector3(custom_position.GetComponent<RectTransform>().localPosition.x,
+//                                                custom_position.GetComponent<RectTransform>().localPosition.y * a.transform.localScale.y);
+
+                a.desired_position = new Vector3(custom_position.GetComponent<RectTransform>().position.x,
+                                custom_position.GetComponent<RectTransform>().position.y * a.transform.localScale.y);
+                //                a.desired_position = custom_position.position;
+                
                 a.custom_position = custom_position;
             }
             // Use standard automatic position calculations
@@ -237,7 +244,7 @@ namespace VNEngine
             side_list.Add(actor);
 
             // Set their position on the screen
-            Reevaluate_All_Actor_Positions();
+//            Reevaluate_All_Actor_Positions();
         }
 
 
@@ -263,7 +270,7 @@ namespace VNEngine
             side_list.Remove(actor);
             side_list.Add(actor);
 
-            Reevaluate_All_Actor_Positions();
+//            Reevaluate_All_Actor_Positions();
         }
         // Moves the actor to the outermost position of the side they're currently on
         public static void Move_Actor_Outwards(Actor actor)
@@ -287,7 +294,7 @@ namespace VNEngine
             side_list.Remove(actor);
             side_list.Insert(0, actor);
 
-            Reevaluate_All_Actor_Positions();
+ //           Reevaluate_All_Actor_Positions();
         }
 
 
@@ -388,7 +395,7 @@ namespace VNEngine
             else
                 Destroy(actor.gameObject);
 
-            Reevaluate_All_Actor_Positions();
+//            Reevaluate_All_Actor_Positions();
         }
 
 

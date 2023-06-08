@@ -4202,6 +4202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686822894}
   - component: {fileID: 686822895}
+  - component: {fileID: 686822896}
   m_Layer: 0
   m_Name: Story
   m_TagString: Untagged
@@ -4246,6 +4247,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: In The Text
   loadSceneOnStart: 0
+--- !u!114 &686822896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686822893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de80e7ace693bf44a5d473f54b0df59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDateOnCalendar: 2
 --- !u!1001 &714236326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18129,7 +18143,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: sentences.Array.data[1]
-      value: 12:00pm, Monday, October 2nd
+      value: Monday, October 2nd 12:00pm
       objectReference: {fileID: 0}
     - target: {fileID: 7991439809982246571, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_UiScaleMode

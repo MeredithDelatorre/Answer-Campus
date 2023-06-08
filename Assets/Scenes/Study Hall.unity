@@ -5637,6 +5637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 272365427}
   - component: {fileID: 272365426}
+  - component: {fileID: 272365428}
   m_Layer: 0
   m_Name: Story
   m_TagString: Untagged
@@ -5688,6 +5689,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272365428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272365425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de80e7ace693bf44a5d473f54b0df59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDateOnCalendar: 13
 --- !u!1001 &285063068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31088,7 +31102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: sentences.Array.data[1]
-      value: 4:30pm, Friday, October 10th
+      value: Friday, October 10th, 4:30pm
       objectReference: {fileID: 0}
     - target: {fileID: 8583522059737696776, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_Name

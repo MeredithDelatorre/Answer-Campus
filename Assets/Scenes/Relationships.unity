@@ -14121,14 +14121,13 @@ MonoBehaviour:
   go_to_next_node: 1
   executed_from_load: 0
   Name_Of_Choice: 
-  Number_Of_Choices: 2
+  Number_Of_Choices: 1
   Hide_Dialogue_UI: 1
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - So, before we start actually doing work, are y'all sure you don't wanna join
-    the team?
   - Have y'all thought about joining the team yet?
+  - 
   - Leilani, that's a little out there.
   - Do you know where I can get some weed?
   - 
@@ -15785,9 +15784,9 @@ MonoBehaviour:
   Button_Events:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 546238175}
+      - m_Target: {fileID: 546238176}
         m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Start_Conversation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15798,19 +15797,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 546238175}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
@@ -33803,9 +33790,9 @@ MonoBehaviour:
   Button_Events:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 679850014}
+      - m_Target: {fileID: 679850015}
         m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Start_Conversation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33817,9 +33804,9 @@ MonoBehaviour:
         m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 846500593}
         m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: Start_Conversation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -98745,14 +98732,13 @@ MonoBehaviour:
   go_to_next_node: 1
   executed_from_load: 0
   Name_Of_Choice: 
-  Number_Of_Choices: 2
+  Number_Of_Choices: 1
   Hide_Dialogue_UI: 1
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - So, before we start actually doing work, are y'all sure you don't wanna join
-    the team?
   - Have y'all thought about joining the team yet?
+  - 
   - Leilani, that's a little out there.
   - Do you know where I can get some weed?
   - 
@@ -100422,19 +100408,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 546238176}
-        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: Start_Conversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:

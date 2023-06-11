@@ -24,6 +24,16 @@ public class MenuOptions : MonoBehaviour
             }
         }
     }
+
+    public void ResetProgress()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
+    public void SaveCurrentScene()
+    {
+        PlayerPrefs.SetString("Next Scene", SceneManager.GetActiveScene().name);
+    }
     public void LoadNextScene()
     {
         sceneToLoad = PlayerPrefs.GetString("Next Scene", sceneToLoad);

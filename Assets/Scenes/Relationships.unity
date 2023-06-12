@@ -10861,6 +10861,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11401660, guid: 4861e09616686f344be4001e3b66513b, type: 3}
+      propertyPath: slide_out
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4861e09616686f344be4001e3b66513b, type: 3}
 --- !u!4 &238570186 stripped
@@ -60097,9 +60101,8 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Relationships aren't always based on looks. Relationships go beyond the surface.
-  - Yes, colorism in dating is real, but that doesn't mean Breanna's entire experience
-    is laid out for her.
+  - Relationships aren't always based on looks.
+  - Yes, but doesn't mean Breanna's entire experience is laid out for her.
   - Leilani, that's a little out there.
   - Do you know where I can get some weed?
   - 
@@ -64331,7 +64334,7 @@ MonoBehaviour:
   nextScene: Just a Compliment
   relationships:
   - character: Breanna
-    relationship: 1
+    relationship: 2
   - character: Matthew
     relationship: 2
 --- !u!1001 &1230446871
@@ -77707,6 +77710,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11401660, guid: 4861e09616686f344be4001e3b66513b, type: 3}
+      propertyPath: slide_out
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4861e09616686f344be4001e3b66513b, type: 3}
 --- !u!4 &1539429801 stripped
@@ -78716,9 +78723,8 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Maybe we should backtrack a little bit
-  - This isn't something we should concern our time with. I see what you mean, but
-    you could've said it in a better way.
+  - Maybe we should backtrack a little bit.
+  - I see what you mean, but you could've said it in a better way.
   - Leilani, that's a little out there.
   - Do you know where I can get some weed?
   - 

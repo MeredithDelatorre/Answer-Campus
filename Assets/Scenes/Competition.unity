@@ -3297,7 +3297,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: da364da1e4e30b749beb09dbc6af1ca2, type: 3}
+      objectReference: {fileID: 21300000, guid: a1293721b5baa034cb439e2d913bd7b1, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Leilani
@@ -5991,7 +5991,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 073b7bb116f678a4e91e391971551ac8, type: 3}
+      objectReference: {fileID: 21300000, guid: 222a42e60edf5f244baad63c9d246dc2, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Deepak
@@ -6061,7 +6061,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 5508a7a01a7b14c42a9181b9ad9ad4e1, type: 3}
+      objectReference: {fileID: 21300000, guid: e5f6deeda3b4e934dbf61fd9d1ced5aa, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Deepak
@@ -6716,7 +6716,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 073b7bb116f678a4e91e391971551ac8, type: 3}
+      objectReference: {fileID: 21300000, guid: 4d9217bd3d9691e4b866fd1082aed8fd, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Deepak

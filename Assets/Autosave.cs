@@ -12,7 +12,16 @@ public class Autosave : MonoBehaviour
     void Start()
     {
         timeToLoadNextScene = Time.time + timeAllowedForSaving;
-        sceneToLoad = PlayerPrefs.GetString("Next Scene", sceneToLoad);
+        if(PlayerPrefs.HasKey("Scene After Save"))
+        {
+            sceneToLoad = PlayerPrefs.GetString("Scene After Save", sceneToLoad);
+        }
+        else
+        {
+            sceneToLoad = PlayerPrefs.GetString("Next Scene", sceneToLoad);
+
+        }
+
     }
 
     // Update is called once per frame

@@ -461,20 +461,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2469794033408119248, guid: 156e6c4705f8bc747a7e780e51a69dbb, type: 3}
   m_PrefabInstance: {fileID: 2469794033096805330}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &381082115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 381082113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69ea4d4a6fd26a94486bb7490d3b5c60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextScene: Intro
-  relationships: []
 --- !u!1 &412000077
 GameObject:
   m_ObjectHideFlags: 0
@@ -7551,6 +7537,8 @@ GameObject:
   - component: {fileID: 2063543842}
   - component: {fileID: 2063543841}
   - component: {fileID: 2063543840}
+  - component: {fileID: 2063543843}
+  - component: {fileID: 2063543844}
   m_Layer: 5
   m_Name: New Game
   m_TagString: Untagged
@@ -7623,13 +7611,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 381082113}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2063543843}
+        m_TargetAssemblyTypeName: SaveProgress, Assembly-CSharp
+        m_MethodName: StartNewGame
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 381082113}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Cutscene
@@ -7673,6 +7661,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063543838}
   m_CullTransparentMesh: 1
+--- !u!114 &2063543843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063543838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69ea4d4a6fd26a94486bb7490d3b5c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextScene: Intro
+  relationships: []
+--- !u!114 &2063543844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063543838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 334b282356fbd6e4cb4d39205a666221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Cutscene
+  loadSceneOnStart: 0
 --- !u!1 &2143440578
 GameObject:
   m_ObjectHideFlags: 0
@@ -7934,11 +7950,11 @@ PrefabInstance:
     - target: {fileID: 2469794032987440550, guid: 156e6c4705f8bc747a7e780e51a69dbb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 381082115}
+      objectReference: {fileID: 2063543843}
     - target: {fileID: 2469794032987440550, guid: 156e6c4705f8bc747a7e780e51a69dbb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 381082115}
+      objectReference: {fileID: 2063543843}
     - target: {fileID: 2469794032987440550, guid: 156e6c4705f8bc747a7e780e51a69dbb, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
@@ -8105,7 +8121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2469794033408119255, guid: 156e6c4705f8bc747a7e780e51a69dbb, type: 3}
       propertyPath: loadSceneOnStart
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8782063352056682381, guid: 156e6c4705f8bc747a7e780e51a69dbb, type: 3}
       propertyPath: m_AnchorMax.x

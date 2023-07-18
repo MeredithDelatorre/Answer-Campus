@@ -45,6 +45,8 @@ namespace VNEngine
         public Image autoplay_image;
         public Sprite autoplay_on_image;
 
+        public Button continueButton;
+
         // Used by ChoiceNode
         public Text choice_text_banner;
         public Button[] choice_buttons;

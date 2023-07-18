@@ -5447,6 +5447,7 @@ MonoBehaviour:
   background_static_image_parent: {fileID: 2415302272291664759}
   autoplay_image: {fileID: 2525718483713741399}
   autoplay_on_image: {fileID: 21300000, guid: a46dc8dce776690478b5f2507195acee, type: 3}
+  continueButton: {fileID: 1764794263039489580}
   choice_text_banner: {fileID: 2493814459865398575}
   choice_buttons:
   - {fileID: 2493814459865422247}

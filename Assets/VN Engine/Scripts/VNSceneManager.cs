@@ -169,8 +169,17 @@ namespace VNEngine
         /// </summary>
         public void Button_Pressed()
         {
+            if(GetComponent<UIManager>())
+            {
+                GetComponent<UIManager>().continueButton.interactable = false;
+            }
             if (current_conversation != null)
                 current_conversation.Button_Pressed();
+            if (GetComponent<UIManager>())
+            {
+                GetComponent<UIManager>().continueButton.interactable = true;
+            }
+
         }
 
 

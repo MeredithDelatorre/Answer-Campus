@@ -10950,7 +10950,7 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Cancel culture at it again
+  - Cancel culture at it again.
   - Can we please continue with our actual lesson?
   - <i>Whisper to Leilani</i> I'd let it go. Didn't you read his RateMyProfessor?
     You gotta stay on his good side.
@@ -18616,8 +18616,8 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Remain in class
-  - Leave with Leilani
+  - <i>Remain in class</i>
+  - <i>Leave with Leilani</i>
   - '[Whisper to Leilani] I''d let it go. Didn''t you read his RateMyProfessor? You
     gotta stay on his good side.'
   - Do you know where I can get some weed?
@@ -20406,15 +20406,15 @@ MonoBehaviour:
   go_to_next_node: 1
   executed_from_load: 0
   Name_Of_Choice: 
-  Number_Of_Choices: 5
+  Number_Of_Choices: 4
   Hide_Dialogue_UI: 1
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - To Kill a Mocking Bird
-  - The Hunger Games Series
-  - The Game of Thrones Series
-  - Anything Stephen King
+  - Anything Stephen King.
+  - The Hunger Games Series.
+  - The Game of Thrones Series.
+  - Something else...
   - Something else...
   - 
   - 
@@ -22124,19 +22124,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 783097562}
-        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: Start_Conversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
@@ -32527,7 +32515,7 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Finish the lesson
+  - <i>Finish the lesson</i>
   - Can we please continue with our actual lesson?
   - <i>Whisper to Leilani</i> I'd let it go. Didn't you read his RateMyProfessor?
     You gotta stay on his good side.
@@ -39466,8 +39454,8 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Stay in class
-  - Leave with her
+  - <i>Stay in class</i>
+  - <i>Leave with her</i>
   - '[Whisper to Leilani] I''d let it go. Didn''t you read his RateMyProfessor? You
     gotta stay on his good side.'
   - Do you know where I can get some weed?
@@ -41331,8 +41319,8 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Leave with Leilani
-  - Stay in class
+  - <i>Leave with Leilani</i>
+  - <i>Stay in class</i>
   - '[Whisper to Leilani] I''d let it go. Didn''t you read his RateMyProfessor? You
     gotta stay on his good side.'
   - Do you know where I can get some weed?
@@ -45200,15 +45188,15 @@ MonoBehaviour:
   go_to_next_node: 1
   executed_from_load: 0
   Name_Of_Choice: 
-  Number_Of_Choices: 5
+  Number_Of_Choices: 4
   Hide_Dialogue_UI: 1
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - To Kill a Mocking Bird
-  - The Hunger Games Series
-  - The Game of Thrones Series
-  - Anything Stephen King
+  - Anything Stephen King.
+  - The Hunger Games Series.
+  - The Game of Thrones Series.
+  - Something else...
   - Something else...
   - 
   - 
@@ -46918,19 +46906,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 783097562}
-        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: Start_Conversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
@@ -62674,7 +62650,7 @@ MonoBehaviour:
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - Finish the lesson
+  - <i>Finish the lesson</i>
   - Leave with Leilani
   - '[Whisper to Leilani] I''d let it go. Didn''t you read his RateMyProfessor? You
     gotta stay on his good side.'
@@ -70809,16 +70785,16 @@ MonoBehaviour:
   go_to_next_node: 1
   executed_from_load: 0
   Name_Of_Choice: 
-  Number_Of_Choices: 5
+  Number_Of_Choices: 4
   Hide_Dialogue_UI: 1
   randomize_choices_order: 0
   Localize_Choice_Text: 0
   Button_Text:
-  - To Kill a Mocking Bird
-  - The Hunger Games Series
-  - The Game of Thrones Series
-  - Anything Stephen King
+  - Anything Stephen King.
+  - The Hunger Games Series.
+  - The Game of Thrones Series.
   - Something else...
+  - 
   - 
   - 
   - 
@@ -72527,19 +72503,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 783097562}
-        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
-        m_MethodName: Start_Conversation
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:

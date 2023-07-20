@@ -678,6 +678,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 461042, guid: 9980a9ae44b2f02419cb43085699fa49, type: 3}
   m_PrefabInstance: {fileID: 251432827}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &257480082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8583522059737696776, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+  m_PrefabInstance: {fileID: 1634487558}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &282553361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4590,6 +4595,7 @@ GameObject:
   - component: {fileID: 1255103677}
   - component: {fileID: 1255103676}
   - component: {fileID: 1255103675}
+  - component: {fileID: 1255103678}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4663,6 +4669,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1255103678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255103674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659ebdc40e5839746b781df0484a4d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cutScene: {fileID: 257480082}
+  display: {fileID: 1311463694}
+  sentences:
+  - How has being a part of Cranes College changed the way you interact with people
+    of various lived experiences and identities?
+  timeBetweenSentences: 10
+  exterior: {fileID: 1634487560}
+  story: {fileID: 686822893}
 --- !u!1001 &1279286972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4733,6 +4759,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
   m_PrefabInstance: {fileID: 1279286972}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1311463694 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2024090837067347461, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+  m_PrefabInstance: {fileID: 1634487558}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1312685718
 GameObject:
   m_ObjectHideFlags: 0
@@ -6024,6 +6061,10 @@ PrefabInstance:
       propertyPath: m_ReferenceResolution.y
       value: 540
       objectReference: {fileID: 0}
+    - target: {fileID: 8530447011622358066, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bcbeb5df48f71e748afdf4ecd12a2f5b, type: 3}
     - target: {fileID: 8583522059737696776, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_Name
       value: Cutscene Animation

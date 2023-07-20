@@ -16748,7 +16748,7 @@ PrefabInstance:
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: new_music
       value: 
-      objectReference: {fileID: 8300000, guid: b8a887d1548b30a40a469c31456f99ec, type: 3}
+      objectReference: {fileID: 8300000, guid: 7162b6f004d73d548befc5a3b171716b, type: 3}
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: fadeOutPreviousMusic
       value: 1
@@ -24241,6 +24241,14 @@ PrefabInstance:
       propertyPath: sentences.Array.data[1]
       value: Saturday, October 7th, 2:00pm
       objectReference: {fileID: 0}
+    - target: {fileID: 8530447011622358066, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7162b6f004d73d548befc5a3b171716b, type: 3}
+    - target: {fileID: 8530447011622358066, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6677772218482043902, guid: 97c02656646bf1e49a7b0a2a25ce8f54, type: 2}
     - target: {fileID: 8583522059737696776, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_Name
       value: Cutscene Animation
@@ -24293,13 +24301,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7280924450456496597, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
 --- !u!1 &1249309079 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3217995655533917111, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
   m_PrefabInstance: {fileID: 1249309078}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1249309080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8583522059737696776, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+  m_PrefabInstance: {fileID: 1249309078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1249309081 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2024090837067347461, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
+  m_PrefabInstance: {fileID: 1249309078}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1249920335
 GameObject:
   m_ObjectHideFlags: 0
@@ -24363,6 +24388,7 @@ GameObject:
   - component: {fileID: 1255103677}
   - component: {fileID: 1255103676}
   - component: {fileID: 1255103675}
+  - component: {fileID: 1255103678}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24436,6 +24462,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1255103678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255103674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659ebdc40e5839746b781df0484a4d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cutScene: {fileID: 1249309080}
+  display: {fileID: 1249309081}
+  sentences:
+  - Hande Green
+  - Saturday, October 7th, 2:00pm
+  timeBetweenSentences: 3
+  exterior: {fileID: 1249309079}
+  story: {fileID: 948376446}
 --- !u!1001 &1265977293
 PrefabInstance:
   m_ObjectHideFlags: 0

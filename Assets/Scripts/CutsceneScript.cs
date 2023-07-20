@@ -7,6 +7,7 @@ using TMPro;
 
 public class CutsceneScript : MonoBehaviour
 {
+    public GameObject cutScene;
     public TextMeshProUGUI display;
     public string[] sentences;
     public float timeBetweenSentences;
@@ -80,10 +81,36 @@ public class CutsceneScript : MonoBehaviour
 
         if(loadSequence == 3)
         {
-            story.SetActive(true);
-            this.gameObject.SetActive(false);
+            if(cutScene.GetComponent<FadeOutAudioSource>())
+            {
+                AudioSource cameraAudio = cutScene.GetComponent<FadeOutAudioSource>().GetAudioSource();
+                cutScene.SetActive(false);
+                //Get camera's MonoBehaviour
+                MonoBehaviour camMono = Camera.main.GetComponent<MonoBehaviour>();
+                //Use it to start your coroutine function
+                camMono.StartCoroutine(FadeAudioSource.StartFade(cameraAudio, 1f, 0));
 
+            }
+            story.SetActive(true);
         }
 
+    }
+
+
+}
+
+public static class FadeAudioSource
+{
+    public static IEnumerator StartFade(AudioSource audioSource, float duration, float targetVolume)
+    {
+        float currentTime = 0;
+        float start = audioSource.volume;
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+            audioSource.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+            yield return null;
+        }
+        yield break;
     }
 }

@@ -9,6 +9,7 @@ namespace VNEngine
     {
         void Start()
         {
+            PlayerPrefs.DeleteAll();
             StatsManager.Clear_All_Stats();
         }
     }

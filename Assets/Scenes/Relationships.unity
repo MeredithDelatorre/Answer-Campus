@@ -25179,7 +25179,7 @@ PrefabInstance:
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: new_music
       value: 
-      objectReference: {fileID: 8300000, guid: 63a17bdcccd936244b063a2faf9d6ddd, type: 3}
+      objectReference: {fileID: 8300000, guid: 9bfd5d520d38f024dbc4231ab6ea0403, type: 3}
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: fadeOutPreviousMusic
       value: 1

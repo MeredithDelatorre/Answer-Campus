@@ -29186,7 +29186,7 @@ PrefabInstance:
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: new_music
       value: 
-      objectReference: {fileID: 8300000, guid: 022e4f7c71f2d5a4d9cce640da78b24c, type: 3}
+      objectReference: {fileID: 8300000, guid: fe6b8d1569805fe4d9c11e5a16a1696d, type: 3}
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: fadeOutPreviousMusic
       value: 1
@@ -70960,6 +70960,8 @@ MonoBehaviour:
     relationship: 2
   - character: Ji-ah
     relationship: 2
+  - character: Matthew
+    relationship: 2
 --- !u!1 &1419015182
 GameObject:
   m_ObjectHideFlags: 0
@@ -80333,6 +80335,8 @@ MonoBehaviour:
   - character: Charli
     relationship: 2
   - character: Ji-ah
+    relationship: 2
+  - character: Matthew
     relationship: 2
 --- !u!1 &1656757134
 GameObject:
@@ -95581,7 +95585,7 @@ PrefabInstance:
     - target: {fileID: 8530447011622358066, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 48b3f3cc01e8c984ba932dcb6c5110d9, type: 3}
+      objectReference: {fileID: 8300000, guid: fe6b8d1569805fe4d9c11e5a16a1696d, type: 3}
     - target: {fileID: 8583522059737696776, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
       propertyPath: m_Name
       value: Cutscene Animation

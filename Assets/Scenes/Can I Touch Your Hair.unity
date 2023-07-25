@@ -4404,7 +4404,7 @@ PrefabInstance:
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: new_music
       value: 
-      objectReference: {fileID: 8300000, guid: 3f72586e76c18c24e84e87b09b0c7f1b, type: 3}
+      objectReference: {fileID: 8300000, guid: d22a1ce43ae29914d8d6f4232deba9cc, type: 3}
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: fadeOutPreviousMusic
       value: 1
@@ -5290,7 +5290,7 @@ PrefabInstance:
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: new_music
       value: 
-      objectReference: {fileID: 8300000, guid: 63a17bdcccd936244b063a2faf9d6ddd, type: 3}
+      objectReference: {fileID: 8300000, guid: 856ae0b6873b2244fbc0ffe91643b86f, type: 3}
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: fadeOutPreviousMusic
       value: 1
@@ -21890,7 +21890,7 @@ PrefabInstance:
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: new_music
       value: 
-      objectReference: {fileID: 8300000, guid: 8d2ba94fab656e340bb9456eea04caf3, type: 3}
+      objectReference: {fileID: 8300000, guid: 40233132b7dfe284eb544a28d149abd3, type: 3}
     - target: {fileID: 11427038, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: fadeOutPreviousMusic
       value: 1

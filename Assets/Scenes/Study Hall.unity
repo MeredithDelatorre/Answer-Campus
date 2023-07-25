@@ -1157,7 +1157,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 8c39d5be82c8a27428117bce9bb5926d, type: 3}
+      objectReference: {fileID: 21300000, guid: 84c9a4d98d618b1428dc54abe7938aa9, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -20909,7 +20909,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 96b7804691a70cf4eb75bd0136ad442e, type: 3}
+      objectReference: {fileID: 21300000, guid: 2fdbb15c322221d418a30e4a3c4a6676, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -30698,7 +30698,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 7e464405efd56364b8222ffeee85b04b, type: 3}
+      objectReference: {fileID: 21300000, guid: 2fdbb15c322221d418a30e4a3c4a6676, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2

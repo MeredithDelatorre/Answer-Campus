@@ -9,10 +9,9 @@ public class Friend : MonoBehaviour
 
     public Relationship relationship;
     public string characterName;
-    public string scene;
+//    public string scene;
     public Image status;
     public Sprite[] statusTypes;
-    public bool randomize = true;
 
 
     // Start is called before the first frame update
@@ -20,10 +19,6 @@ public class Friend : MonoBehaviour
     {
         int current_status = PlayerPrefs.GetInt(characterName, 0);
         Debug.Log(characterName + ": " + current_status);
-        if(randomize)
-        {
-            current_status = Random.Range(0, statusTypes.Length);
-        }
         status.sprite = statusTypes[current_status];        
     }
 

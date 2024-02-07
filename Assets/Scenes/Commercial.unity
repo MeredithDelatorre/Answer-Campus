@@ -2215,8 +2215,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1247627032}
   - {fileID: 1406608913}
+  - {fileID: 1247627032}
   - {fileID: 981088433}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -4194,7 +4194,7 @@ PrefabInstance:
       objectReference: {fileID: 1406608912}
     - target: {fileID: 2493814459876607703, guid: 253470f91eb664645bcd9c14bac73717, type: 3}
       propertyPath: m_Name
-      value: DialogueCanvas - Mobile
+      value: DialogueCanvas - 1080p
       objectReference: {fileID: 0}
     - target: {fileID: 2493814459898466433, guid: 253470f91eb664645bcd9c14bac73717, type: 3}
       propertyPath: m_Pivot.x
@@ -4814,7 +4814,7 @@ Transform:
   - {fileID: 16490123}
   - {fileID: 1442524559}
   m_Father: {fileID: 686822894}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1416599972
 GameObject:

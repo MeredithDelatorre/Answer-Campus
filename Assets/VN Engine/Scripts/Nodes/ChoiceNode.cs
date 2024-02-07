@@ -25,7 +25,7 @@ namespace VNEngine
     public class ChoiceNode : Node
     {
         // DO NOT CHANGE: is the maximum number of choices. Dictated by the number of ChoiceButtons listed in the UIManager. You shouldn't ever need more than 20 buttons.
-        public static int max_number_of_buttons = 20;
+        public static int max_number_of_buttons = 6;
 
         [HideInInspector]
         public string Name_Of_Choice;   // Text that appears at the top of the choices menu. Ex: I'm at a crossroads. Which way should I go?

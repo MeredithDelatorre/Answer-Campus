@@ -17,7 +17,7 @@ public class DialogueFX : MonoBehaviour
     {
         if(timer >= timeBeforeJiggle)
         {
-            GetComponent<Animator>().SetTrigger("jiggle");
+//            GetComponent<Animator>().SetTrigger("jiggle");
             timer = Time.time + timeBeforeJiggle;
         }
         

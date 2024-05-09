@@ -1639,7 +1639,7 @@ GameObject:
   - component: {fileID: 2493814459865421581}
   - component: {fileID: 2493814459865383565}
   m_Layer: 5
-  m_Name: DialogueCanvas - 1080p
+  m_Name: DialogueCanvas - Angles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

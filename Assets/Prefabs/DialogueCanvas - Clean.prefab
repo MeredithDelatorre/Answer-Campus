@@ -1746,7 +1746,7 @@ GameObject:
   - component: {fileID: 2493814459865421581}
   - component: {fileID: 2493814459865383565}
   m_Layer: 5
-  m_Name: DialogueCanvas - Android
+  m_Name: DialogueCanvas - Clean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 2340, y: 1080}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -15699,6 +15699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837c07bd51cf9cf48be77c847752e31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ContinueConversationOnClick: 0
 --- !u!1 &5230237840304409471
 GameObject:
   m_ObjectHideFlags: 0
@@ -15867,6 +15868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837c07bd51cf9cf48be77c847752e31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ContinueConversationOnClick: 0
 --- !u!1 &5535592528885415446
 GameObject:
   m_ObjectHideFlags: 0
@@ -15957,6 +15959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837c07bd51cf9cf48be77c847752e31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ContinueConversationOnClick: 0
 --- !u!1 &5766299029150191321
 GameObject:
   m_ObjectHideFlags: 0

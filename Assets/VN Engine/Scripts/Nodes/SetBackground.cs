@@ -117,7 +117,6 @@ namespace VNEngine
                 img.color = Color.Lerp(Color.black, Color.white, value);
                 yield return new WaitForSeconds(over_time / 100);
             }
-            Debug.Log("FADDE");
             Finish_Node();
             yield break;
         }

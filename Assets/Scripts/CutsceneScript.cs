@@ -13,6 +13,7 @@ public class CutsceneScript : MonoBehaviour
     public float timeBetweenSentences;
 
     public GameObject exterior;
+    public GameObject dialogueManager;
     public GameObject story;
 
     private float nextSentenceTime;
@@ -91,6 +92,7 @@ public class CutsceneScript : MonoBehaviour
                 camMono.StartCoroutine(FadeAudioSource.StartFade(cameraAudio, 1f, 0));
 
             }
+            dialogueManager.SetActive(true);
             story.SetActive(true);
         }
 

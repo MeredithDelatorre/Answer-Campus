@@ -26272,7 +26272,8 @@ MonoBehaviour:
   - Friday, October 10th, 4:30pm
   timeBetweenSentences: 3
   exterior: {fileID: 1641770068}
-  story: {fileID: 272365425}
+  dialogueManager: {fileID: 272365425}
+  story: {fileID: 1406608911}
 --- !u!1001 &1268867104
 PrefabInstance:
   m_ObjectHideFlags: 0

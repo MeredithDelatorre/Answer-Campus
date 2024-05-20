@@ -6,14 +6,12 @@ public class FindObject : MonoBehaviour
 {
     public GameObject[] foundObjects;
     // Start is called before the first frame update
-    void Start()
+
+    public void Found(ItemOutcome outcome)
     {
-        
+        Debug.Log("Clicked on " + outcome.title);
+        gameObject.SetActive(false);
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

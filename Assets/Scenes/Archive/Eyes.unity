@@ -43477,7 +43477,8 @@ MonoBehaviour:
   - Thursday, October 5th, 8:00pm
   timeBetweenSentences: 3
   exterior: {fileID: 1164613320}
-  story: {fileID: 492840012}
+  dialogueManager: {fileID: 492840012}
+  story: {fileID: 1406608911}
 --- !u!1 &1298596838
 GameObject:
   m_ObjectHideFlags: 0

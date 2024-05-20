@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.SceneManagement;
+using VNEngine;
 
 public class Location : MonoBehaviour
 {
@@ -14,8 +15,8 @@ public class Location : MonoBehaviour
 
     public void GoToLocation()
     {
-        PlayerPrefs.SetString("Current Conversation", conversation);
-        PlayerPrefs.SetInt("Minutes Passed", minutes);
+//        PlayerPrefs.SetString("Current Conversation", conversation);
+        StatsManager.Add_To_Numbered_Stat("Minutes Passed", minutes);
         SceneManager.LoadScene(scene);
 
     }

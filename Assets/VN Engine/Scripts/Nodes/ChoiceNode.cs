@@ -88,8 +88,10 @@ namespace VNEngine
 
         public void Start()
         {
-            default_button_sprite = UIManager.ui_manager.choice_buttons[0].image.sprite;
-            default_button_flexible_height = UIManager.ui_manager.choice_buttons[0].GetComponent<LayoutElement>().preferredHeight;
+//            Debug.Log(UIManager.ui_manager.choice_buttons.Length);
+//            default_button_sprite = UIManager.ui_manager.choice_buttons[0].image.sprite;
+
+ //           default_button_flexible_height = UIManager.ui_manager.choice_buttons[0].GetComponent<LayoutElement>().preferredHeight;
         }
 
 

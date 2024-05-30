@@ -10,7 +10,7 @@ namespace VNEngine
         // Start is called before the first frame update
         public override void Run_Node()
         {
-            image.transform.SetParent(UIManager.ui_manager.background.transform, false);
+            image.transform.SetParent(UIManager.ui_manager.background_static_image_parent.transform, false);
             Finish_Node();
 
         }

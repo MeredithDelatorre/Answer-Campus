@@ -9,6 +9,7 @@ namespace VNEngine
 
         public override void Run_Node()
         {
+            Debug.Log("Changing Conversation");
             StartCoroutine(Check_If_Actors_Have_Exited());
             //StartNewConversation();
         }

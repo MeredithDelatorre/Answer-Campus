@@ -68,6 +68,7 @@ namespace VNEngine
 
         public override void Run_Node()
         {
+            Debug.Log("Running If Node...");
             StartCoroutine(Running());
         }
         public IEnumerator Running()

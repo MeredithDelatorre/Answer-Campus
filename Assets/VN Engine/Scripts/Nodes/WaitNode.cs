@@ -35,6 +35,7 @@ namespace VNEngine
         public override void Finish_Node()
         {
             VNSceneManager.Waiting_till_true = false;
+            Debug.Log("Wait is Over. Finishing Wait Node.");
             base.Finish_Node();
         }
 

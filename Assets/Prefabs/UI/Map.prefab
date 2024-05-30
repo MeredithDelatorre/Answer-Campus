@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1315362148165340212}
   - component: {fileID: 1315362148165340209}
   m_Layer: 5
-  m_Name: Building
+  m_Name: Lecture Hall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,8 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79222de6e39b4b545ba96d5e44902518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 
-  conversation: 
+  scene: Lecture Hall
   timestamp: 
   minutes: 15
   played: 0
@@ -298,7 +297,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Apartment
-  conversation: 
   timestamp: 
   minutes: 15
   played: 0
@@ -525,7 +523,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Library
-  conversation: 
   timestamp: 
   minutes: 15
   played: 0
@@ -676,7 +673,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Shuttle
-  conversation: 
   timestamp: 
   minutes: 15
   played: 0
@@ -699,7 +695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1315362148768539165
 RectTransform:
   m_ObjectHideFlags: 0
@@ -827,7 +823,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Dining Hall
-  conversation: 
   timestamp: 
   minutes: 0
   played: 0
@@ -977,8 +972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79222de6e39b4b545ba96d5e44902518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Dorm
-  conversation: 
+  scene: Apartment
   timestamp: 
   minutes: 15
   played: 0
@@ -1173,7 +1167,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Green
-  conversation: 
   timestamp: 
   minutes: 15
   played: 0
@@ -1426,7 +1419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: Student Center
-  conversation: 
   timestamp: 
   minutes: 15
   played: 0

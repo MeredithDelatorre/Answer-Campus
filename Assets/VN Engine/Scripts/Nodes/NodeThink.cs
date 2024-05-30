@@ -15,15 +15,25 @@ namespace VNEngine
         private bool thinking = true;
         private float nextThoughtTime;
         private int thoughtIndex = 0;
+        private Coroutine thinkingCoroutine;
 
         // Called initially when the node is run, put most of your logic here
         public override void Run_Node()
         {
+            thoughtIndex = 0; // Reset the thought index
+            thinking = true; // Ensure thinking is set to true
+            nextThoughtTime = Time.time; // Initialize nextThoughtTime
+
             thought.gameObject.SetActive(true);
             thought.SetCharacter(characterImage);
             thought.SetThought(thoughts[thoughtIndex]);
             thought.ResetColors();
-            StartCoroutine(Thinking_Coroutine());
+
+            if (thinkingCoroutine != null)
+            {
+                StopCoroutine(thinkingCoroutine);
+            }
+            thinkingCoroutine = StartCoroutine(Thinking_Coroutine());
         }
 
         // Fades the image from opaque to transparent
@@ -31,34 +41,29 @@ namespace VNEngine
         {
             while (thinking)
             {
-                if (nextThoughtTime <= Time.time)
+                if (Time.time >= nextThoughtTime)
                 {
-                    // Check if there are more thoughts to display
                     if (thoughtIndex < thoughts.Length - 1)
                     {
-                        if(thoughtIndex != 0)
+                        if (thoughtIndex != 0)
                         {
                             Debug.Log("Fading Out Previous Thought");
                             // Fade out previous thought
                             thought.FadeOutText();
+                            yield return new WaitForSeconds(timeBetweenThoughts);
                         }
-                        yield return new WaitForSeconds(timeBetweenThoughts);
-                    }
 
-                    thoughtIndex++;
-                    
-                    if(thoughtIndex >= thoughts.Length)
-                    {
-                        thinking = false;
+                        thoughtIndex++;
+                        thought.SetThought(thoughts[thoughtIndex]);
+                        nextThoughtTime = Time.time + timeBetweenThoughts;
                     }
                     else
                     {
-                        thought.SetThought(thoughts[thoughtIndex]);
-                        // Set the time for the next thought
-                        nextThoughtTime = Time.time + timeBetweenThoughts;
+                        // For the last thought, just wait for the remaining time
+                        yield return new WaitForSeconds(timeBetweenThoughts);
+                        thinking = false;
                     }
                 }
-
                 yield return null;
             }
 
@@ -69,7 +74,15 @@ namespace VNEngine
         // Do any necessary cleanup here
         public override void Finish_Node()
         {
+            if (thinkingCoroutine != null)
+            {
+                StopCoroutine(thinkingCoroutine);
+                thinkingCoroutine = null;
+            }
+
+            VNSceneManager.Waiting_till_true = true;
             thought.gameObject.SetActive(false);
+            Debug.Log("Waiting is over, setting true: " + gameObject.name);
             base.Finish_Node();
         }
     }

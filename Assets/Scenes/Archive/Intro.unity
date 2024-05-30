@@ -3300,8 +3300,7 @@ PrefabInstance:
       propertyPath: statName
       value: Player Name
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7078581307732682082, guid: c6c96011818384806a063571a6eee403, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6c96011818384806a063571a6eee403, type: 3}
 --- !u!1 &514100569
 GameObject:
@@ -10121,6 +10120,7 @@ MonoBehaviour:
   - Monday, October 2nd 12:00pm
   timeBetweenSentences: 3
   exterior: {fileID: 1634487560}
+  dialogueManager: {fileID: 0}
   story: {fileID: 686822893}
 --- !u!1001 &1285823517
 PrefabInstance:

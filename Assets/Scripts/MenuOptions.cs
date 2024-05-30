@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using VNEngine;
 
 public class MenuOptions : MonoBehaviour
 {
@@ -36,6 +37,8 @@ public class MenuOptions : MonoBehaviour
     }
     public void LoadNextScene()
     {
+        Debug.Log("loading next scene");
+
         sceneToLoad = PlayerPrefs.GetString("Next Scene", sceneToLoad);
         LoadScene(sceneToLoad);
     }

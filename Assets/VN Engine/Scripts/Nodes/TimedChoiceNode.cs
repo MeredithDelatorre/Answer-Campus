@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace VNEngine
 {
-    public class TimedChoiceNode : MonoBehaviour
+    public class TimedChoiceNode : Node
     {
         public float timer = 30;
         public ConversationManager default_choice;
@@ -12,6 +12,12 @@ namespace VNEngine
 
         private void Start()
         {
+        }
+
+
+        public override void Run_Node()
+        {
+            Debug.Log("Timed Choice: " + timer);
             choiceNode = GetComponent<ChoiceNode>();
             if (choiceNode == null)
             {
@@ -32,10 +38,22 @@ namespace VNEngine
 
         private IEnumerator Timer()
         {
+            Debug.Log("Timer Running...");
             yield return new WaitForSeconds(timer);
-            UIManager.ui_manager.choice_panel.SetActive(false); // Assuming UIManager.ui_manager is a valid reference
-            Debug.Log("Starting Next Conversation");
-            default_choice.Start_Conversation();
+            Finish_Node();
+//            UIManager.ui_manager.choice_panel.SetActive(false); // Assuming UIManager.ui_manager is a valid reference
+//            Debug.Log("Starting Next Conversation");
         }
+
+        public override void Finish_Node()
+        {
+            Debug.Log("Finishing Timed Choice Node");
+            choiceNode.Clear_Choices();        // Hide the UI
+            VNSceneManager.current_conversation.Finish_Conversation();
+//            default_choice.Start_Conversation();
+
+//            base.Finish_Node();     // Continue conversation
+        }
+
     }
 }

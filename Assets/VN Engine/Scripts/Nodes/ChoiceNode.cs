@@ -88,11 +88,10 @@ namespace VNEngine
 
         public void Start()
         {
-//            Debug.Log(UIManager.ui_manager.choice_buttons.Length);
-//            default_button_sprite = UIManager.ui_manager.choice_buttons[0].image.sprite;
+            //            Debug.Log(UIManager.ui_manager.choice_buttons.Length);
 
- //           default_button_flexible_height = UIManager.ui_manager.choice_buttons[0].GetComponent<LayoutElement>().preferredHeight;
-        }
+            //           default_button_flexible_height = UIManager.ui_manager.choice_buttons[0].GetComponent<LayoutElement>().preferredHeight;
+                   }
 
 
         public override void Run_Node()
@@ -106,6 +105,7 @@ namespace VNEngine
 
             // Display the choices on the UI
             UIManager.ui_manager.choice_panel.SetActive(true);
+            default_button_sprite = UIManager.ui_manager.choice_buttons[0].image.sprite;
 
             if (Localize_Choice_Text)
                 UIManager.ui_manager.choice_text_banner.text = VNSceneManager.scene_manager.Get_Localized_Dialogue_Entry(Name_Of_Choice);  // Localize the name of the choice;
@@ -148,10 +148,11 @@ namespace VNEngine
                     UIManager.ui_manager.choice_buttons[x].interactable = true;
                     bool requirement_met = true;
 
+
                     if (Localize_Choice_Text)
                         UIManager.ui_manager.choice_buttons[x].GetComponentInChildren<Text>().text = VNSceneManager.scene_manager.Get_Localized_Dialogue_Entry(Button_Text[x]);   // Set button text, get localized version
                     else
-                        UIManager.ui_manager.choice_buttons[x].GetComponentInChildren<Text>().text = Button_Text[x];   // Set button text
+                        UIManager.ui_manager.choice_buttons[x].GetComponentInChildren<Text>().text = Insert_Stats_into_Text(Button_Text[x]);   // Set button text, get localized version
 
                     //(Choice_Been_Clicked_Before[x] ||
                     if (Show_Choice_Was_Selected_Before[x] && StatsManager.Compare_Bool_Stat_To(Name_Of_Choice + ": " + Button_Text[x], true))
@@ -295,6 +296,10 @@ namespace VNEngine
                     && lowest_choice != null)
                     SelectChoice(lowest_choice.gameObject);
             }
+            if(GetComponent<TimedChoiceNode>())
+            {
+                GetComponent<TimedChoiceNode>().Run_Node();
+            }
         }
 
 
@@ -304,8 +309,45 @@ namespace VNEngine
             EventSystem.current.SetSelectedGameObject(choice);
         }
 
+        public string Insert_Stats_into_Text(string in_text)
+        {
+            // Find any [ ] characters
+            string[] splits = in_text.Split('[', ']');
 
-        public void RandomizeButtonOrder()
+            // Now check each split if it's legitimate
+            foreach (string original_s in splits)
+            {
+                bool is_variable = false;
+                string new_s = "";
+                string modified_s;
+                if (original_s.StartsWith("b:"))
+                {
+                    is_variable = true;
+                    modified_s = original_s.Replace("b:", "");
+                    new_s = StatsManager.Get_Boolean_Stat(modified_s).ToString();
+                }
+                else if (original_s.StartsWith("f:"))
+                {
+                    is_variable = true;
+                    modified_s = original_s.Replace("f:", "");
+                    new_s = StatsManager.Get_Numbered_Stat(modified_s) + "";
+                }
+                else if (original_s.StartsWith("s:"))
+                {
+                    is_variable = true;
+                    modified_s = original_s.Replace("s:", "");
+                    new_s = StatsManager.Get_String_Stat(modified_s);
+                }
+
+                if (is_variable)
+                    in_text = in_text.Replace("[" + original_s + "]", new_s);
+            }
+
+            return in_text;
+        }
+
+
+public void RandomizeButtonOrder()
         {
             Debug.Log("Randomizing choices button order");
 
@@ -341,6 +383,7 @@ namespace VNEngine
 
         public void Clear_Choices()
         {
+            Debug.Log("Clearing Choices");
             if (VNSceneManager.current_conversation.Get_Current_Node().GetType() != this.GetType()) // Don't clear the choices if the next node is a Choice node
             {
                 // Loop through every button
@@ -354,6 +397,20 @@ namespace VNEngine
 
                 // Hide choice UI
                 UIManager.ui_manager.choice_panel.SetActive(false);
+            }
+            else
+            {
+                Debug.Log("Timed Node Choice");
+                for (int x = 0; x < ChoiceNode.max_number_of_buttons; x++)
+                {
+                    // Remove event listeners from buttons
+                    UIManager.ui_manager.choice_buttons[x].onClick.RemoveAllListeners();
+                    // Set all choice buttons to inactive
+                    UIManager.ui_manager.choice_buttons[x].gameObject.SetActive(false);
+                }
+                // Hide choice UI
+                UIManager.ui_manager.choice_panel.SetActive(false);
+
             }
         }
 

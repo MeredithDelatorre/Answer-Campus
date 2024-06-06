@@ -42537,7 +42537,7 @@ MonoBehaviour:
   cutScene: {fileID: 783001821}
   display: {fileID: 587955151}
   sentences:
-  - Campus Green
+  - Library
   timeBetweenSentences: 3
   exterior: {fileID: 1634487560}
   dialogueManager: {fileID: 1685292402}
@@ -46572,7 +46572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 1856276881}
+  start_conversation_when_done: {fileID: 282285652}
   cur_node: 0
   active: 0
   finished_conversation: 0

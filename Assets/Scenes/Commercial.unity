@@ -196,6 +196,7 @@ GameObject:
   - component: {fileID: 65571395}
   - component: {fileID: 65571397}
   - component: {fileID: 65571396}
+  - component: {fileID: 65571398}
   m_Layer: 0
   m_Name: Dialogue - Charli (1)
   m_TagString: Untagged
@@ -346,6 +347,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &65571398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65571394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &143690710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -764,6 +780,7 @@ GameObject:
   - component: {fileID: 300405246}
   - component: {fileID: 300405248}
   - component: {fileID: 300405247}
+  - component: {fileID: 300405249}
   m_Layer: 0
   m_Name: Dialogue - Deepak (2)
   m_TagString: Untagged
@@ -914,6 +931,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &300405249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300405245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &328175678
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,6 +989,7 @@ GameObject:
   - component: {fileID: 336824593}
   - component: {fileID: 336824595}
   - component: {fileID: 336824594}
+  - component: {fileID: 336824596}
   m_Layer: 0
   m_Name: Dialogue - Leilani
   m_TagString: Untagged
@@ -1106,6 +1139,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &336824596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336824592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &395711377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1187,6 +1235,7 @@ GameObject:
   - component: {fileID: 403339499}
   - component: {fileID: 403339501}
   - component: {fileID: 403339500}
+  - component: {fileID: 403339502}
   m_Layer: 0
   m_Name: Dialogue - Matthew (1)
   m_TagString: Untagged
@@ -1336,6 +1385,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &403339502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403339498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &452096112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,6 +1411,7 @@ GameObject:
   - component: {fileID: 452096113}
   - component: {fileID: 452096115}
   - component: {fileID: 452096114}
+  - component: {fileID: 452096116}
   m_Layer: 0
   m_Name: Dialogue - Leilani (1)
   m_TagString: Untagged
@@ -1496,6 +1561,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &452096116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452096112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &465507622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1717,6 +1797,7 @@ GameObject:
   - component: {fileID: 520030500}
   - component: {fileID: 520030502}
   - component: {fileID: 520030501}
+  - component: {fileID: 520030503}
   m_Layer: 0
   m_Name: Dialogue - Breanna (2)
   m_TagString: Untagged
@@ -1866,6 +1947,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &520030503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520030499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &570427866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1877,6 +1973,7 @@ GameObject:
   - component: {fileID: 570427867}
   - component: {fileID: 570427869}
   - component: {fileID: 570427868}
+  - component: {fileID: 570427870}
   m_Layer: 0
   m_Name: Dialogue - Charli (2)
   m_TagString: Untagged
@@ -2026,6 +2123,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &570427870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570427866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &589386642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,6 +2149,7 @@ GameObject:
   - component: {fileID: 589386643}
   - component: {fileID: 589386645}
   - component: {fileID: 589386644}
+  - component: {fileID: 589386646}
   m_Layer: 0
   m_Name: Dialogue - Deepak (1)
   m_TagString: Untagged
@@ -2186,6 +2299,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &589386646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589386642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &686822893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,8 +2344,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1406608913}
-  - {fileID: 1619008045}
   - {fileID: 981088433}
+  - {fileID: 1619008045}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2316,6 +2444,7 @@ GameObject:
   - component: {fileID: 721331295}
   - component: {fileID: 721331297}
   - component: {fileID: 721331296}
+  - component: {fileID: 721331298}
   m_Layer: 0
   m_Name: Dialogue - Breanna (1)
   m_TagString: Untagged
@@ -2465,6 +2594,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &721331298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721331294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &781003970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2616,6 +2760,7 @@ GameObject:
   - component: {fileID: 812096686}
   - component: {fileID: 812096688}
   - component: {fileID: 812096687}
+  - component: {fileID: 812096689}
   m_Layer: 0
   m_Name: Dialogue - Beau
   m_TagString: Untagged
@@ -2765,6 +2910,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &812096689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812096685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &831401191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2975,6 +3135,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
   m_PrefabInstance: {fileID: 868732361}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &919495275 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2493814459876607703, guid: 055d54775d5803f47a39dc9b66c29a8f, type: 3}
+  m_PrefabInstance: {fileID: 1619008044}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &921881042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3106,6 +3271,7 @@ GameObject:
   - component: {fileID: 964812266}
   - component: {fileID: 964812268}
   - component: {fileID: 964812267}
+  - component: {fileID: 964812269}
   m_Layer: 0
   m_Name: Dialogue - Breanna
   m_TagString: Untagged
@@ -3255,6 +3421,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &964812269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964812265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &981088431
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,7 +3484,7 @@ Transform:
   m_Children:
   - {fileID: 1697977883}
   m_Father: {fileID: 686822894}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &983525184
 GameObject:
@@ -3368,6 +3549,7 @@ GameObject:
   - component: {fileID: 1015834935}
   - component: {fileID: 1015834937}
   - component: {fileID: 1015834936}
+  - component: {fileID: 1015834938}
   m_Layer: 0
   m_Name: Dialogue - Deepak
   m_TagString: Untagged
@@ -3517,6 +3699,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1015834938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015834934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1032086057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3580,6 +3777,7 @@ GameObject:
   - component: {fileID: 1086585299}
   - component: {fileID: 1086585301}
   - component: {fileID: 1086585300}
+  - component: {fileID: 1086585302}
   m_Layer: 0
   m_Name: Dialogue - Matthew
   m_TagString: Untagged
@@ -3729,6 +3927,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1086585302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1086585298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1151013036
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,6 +4005,7 @@ GameObject:
   - component: {fileID: 1173479621}
   - component: {fileID: 1173479623}
   - component: {fileID: 1173479622}
+  - component: {fileID: 1173479624}
   m_Layer: 0
   m_Name: Dialogue - Leilani (2)
   m_TagString: Untagged
@@ -3941,6 +4155,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1173479624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173479620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1175384618
 GameObject:
   m_ObjectHideFlags: 0
@@ -3952,6 +4181,7 @@ GameObject:
   - component: {fileID: 1175384619}
   - component: {fileID: 1175384621}
   - component: {fileID: 1175384620}
+  - component: {fileID: 1175384622}
   m_Layer: 0
   m_Name: Dialogue - Beau (2)
   m_TagString: Untagged
@@ -4101,6 +4331,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1175384622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175384618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &1198311189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4285,6 +4530,7 @@ MonoBehaviour:
     of various lived experiences and identities?
   timeBetweenSentences: 10
   exterior: {fileID: 1634487560}
+  dialogueManager: {fileID: 919495275}
   story: {fileID: 686822893}
 --- !u!1001 &1279286972
 PrefabInstance:
@@ -4378,6 +4624,7 @@ GameObject:
   - component: {fileID: 1312685719}
   - component: {fileID: 1312685721}
   - component: {fileID: 1312685720}
+  - component: {fileID: 1312685722}
   m_Layer: 0
   m_Name: Dialogue - Ji-ah (1)
   m_TagString: Untagged
@@ -4527,6 +4774,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1312685722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312685718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &1365811305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4721,6 +4983,7 @@ GameObject:
   - component: {fileID: 1416599973}
   - component: {fileID: 1416599975}
   - component: {fileID: 1416599974}
+  - component: {fileID: 1416599976}
   m_Layer: 0
   m_Name: Dialogue - Eric (1)
   m_TagString: Untagged
@@ -4870,6 +5133,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1416599976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416599972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1424481746
 GameObject:
   m_ObjectHideFlags: 0
@@ -4881,6 +5159,7 @@ GameObject:
   - component: {fileID: 1424481747}
   - component: {fileID: 1424481749}
   - component: {fileID: 1424481748}
+  - component: {fileID: 1424481750}
   m_Layer: 0
   m_Name: Dialogue - Matthew (2)
   m_TagString: Untagged
@@ -5030,6 +5309,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1424481750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424481746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &1442524558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5493,6 +5787,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6036948889666307039, guid: 055d54775d5803f47a39dc9b66c29a8f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 055d54775d5803f47a39dc9b66c29a8f, type: 3}
 --- !u!224 &1619008045 stripped
@@ -5511,6 +5809,7 @@ GameObject:
   - component: {fileID: 1619855062}
   - component: {fileID: 1619855064}
   - component: {fileID: 1619855063}
+  - component: {fileID: 1619855065}
   m_Layer: 0
   m_Name: Dialogue - Eric (2)
   m_TagString: Untagged
@@ -5660,6 +5959,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1619855065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619855061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &1634487558
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6185,6 +6499,7 @@ GameObject:
   - component: {fileID: 1839097890}
   - component: {fileID: 1839097892}
   - component: {fileID: 1839097891}
+  - component: {fileID: 1839097893}
   m_Layer: 0
   m_Name: Dialogue - Eric
   m_TagString: Untagged
@@ -6334,6 +6649,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1839097893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839097889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1845813750
 GameObject:
   m_ObjectHideFlags: 0
@@ -6345,6 +6675,7 @@ GameObject:
   - component: {fileID: 1845813751}
   - component: {fileID: 1845813753}
   - component: {fileID: 1845813752}
+  - component: {fileID: 1845813754}
   m_Layer: 0
   m_Name: Dialogue - Beau (1)
   m_TagString: Untagged
@@ -6494,6 +6825,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1845813754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845813750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &1876533172
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6627,6 +6973,7 @@ GameObject:
   - component: {fileID: 1884192600}
   - component: {fileID: 1884192602}
   - component: {fileID: 1884192601}
+  - component: {fileID: 1884192603}
   m_Layer: 0
   m_Name: Dialogue - Ji-ah
   m_TagString: Untagged
@@ -6776,6 +7123,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1884192603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884192599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &1926576289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7031,6 +7393,7 @@ GameObject:
   - component: {fileID: 2036774354}
   - component: {fileID: 2036774356}
   - component: {fileID: 2036774355}
+  - component: {fileID: 2036774357}
   m_Layer: 0
   m_Name: Dialogue - Ji-ah (2)
   m_TagString: Untagged
@@ -7180,6 +7543,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &2036774357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036774353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &2072107518
 GameObject:
   m_ObjectHideFlags: 0
@@ -7191,6 +7569,7 @@ GameObject:
   - component: {fileID: 2072107519}
   - component: {fileID: 2072107521}
   - component: {fileID: 2072107520}
+  - component: {fileID: 2072107522}
   m_Layer: 0
   m_Name: Dialogue - Charli
   m_TagString: Untagged
@@ -7340,6 +7719,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &2072107522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072107518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 1
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &2113793809
 PrefabInstance:
   m_ObjectHideFlags: 0

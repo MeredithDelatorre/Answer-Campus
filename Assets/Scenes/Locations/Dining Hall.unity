@@ -2603,6 +2603,7 @@ GameObject:
   - component: {fileID: 123280390}
   - component: {fileID: 123280392}
   - component: {fileID: 123280391}
+  - component: {fileID: 123280393}
   m_Layer: 0
   m_Name: Dialogue (14)
   m_TagString: Untagged
@@ -2623,7 +2624,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &123280391
 AudioSource:
@@ -2752,6 +2753,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &123280393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123280389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &132333787
 GameObject:
   m_ObjectHideFlags: 0
@@ -6489,6 +6505,7 @@ GameObject:
   - component: {fileID: 344614904}
   - component: {fileID: 344614906}
   - component: {fileID: 344614905}
+  - component: {fileID: 344614907}
   m_Layer: 0
   m_Name: Dialogue (12)
   m_TagString: Untagged
@@ -6509,7 +6526,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &344614905
 AudioSource:
@@ -6638,6 +6655,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &344614907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344614903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &349351341
 GameObject:
   m_ObjectHideFlags: 0
@@ -6696,6 +6728,7 @@ GameObject:
   - component: {fileID: 351451161}
   - component: {fileID: 351451163}
   - component: {fileID: 351451162}
+  - component: {fileID: 351451164}
   m_Layer: 0
   m_Name: Dialogue (8)
   m_TagString: Untagged
@@ -6716,7 +6749,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &351451162
 AudioSource:
@@ -6846,6 +6879,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &351451164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351451160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &363453810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9404,6 +9452,7 @@ GameObject:
   - component: {fileID: 498427217}
   - component: {fileID: 498427219}
   - component: {fileID: 498427218}
+  - component: {fileID: 498427220}
   m_Layer: 0
   m_Name: Dialogue (15)
   m_TagString: Untagged
@@ -9424,7 +9473,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 15
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &498427218
 AudioSource:
@@ -9553,6 +9602,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &498427220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498427216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &518978893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10340,6 +10404,7 @@ GameObject:
   - component: {fileID: 572727252}
   - component: {fileID: 572727254}
   - component: {fileID: 572727253}
+  - component: {fileID: 572727255}
   m_Layer: 0
   m_Name: Dialogue (11)
   m_TagString: Untagged
@@ -10360,7 +10425,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &572727253
 AudioSource:
@@ -10489,6 +10554,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &572727255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572727251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &575295856
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13685,6 +13765,7 @@ GameObject:
   - component: {fileID: 773189843}
   - component: {fileID: 773189845}
   - component: {fileID: 773189844}
+  - component: {fileID: 773189846}
   m_Layer: 0
   m_Name: Dialogue (3)
   m_TagString: Untagged
@@ -13705,7 +13786,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &773189844
 AudioSource:
@@ -13834,6 +13915,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &773189846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773189842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &780593078
 GameObject:
   m_ObjectHideFlags: 0
@@ -14588,6 +14684,7 @@ GameObject:
   - component: {fileID: 824966395}
   - component: {fileID: 824966397}
   - component: {fileID: 824966396}
+  - component: {fileID: 824966398}
   m_Layer: 0
   m_Name: Dialogue (16)
   m_TagString: Untagged
@@ -14608,7 +14705,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 16
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &824966396
 AudioSource:
@@ -14737,6 +14834,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &824966398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824966394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &829001093
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15157,7 +15269,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 18
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &836068481
 MonoBehaviour:
@@ -15400,7 +15512,19 @@ MonoBehaviour:
   - {fileID: 0}
   Button_Events:
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1097174265}
+        m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
+        m_MethodName: Start_Conversation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   - m_PersistentCalls:
       m_Calls: []
   - m_PersistentCalls:
@@ -15471,6 +15595,57 @@ MonoBehaviour:
   fade_in_time: 0.1
   destination: 3
   custom_position: {fileID: 238897030}
+--- !u!1 &848364248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 848364249}
+  - component: {fileID: 848364250}
+  m_Layer: 0
+  m_Name: Fade out to Black (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &848364249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848364248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1097174264}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &848364250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848364248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14efe4bb02d1ee841ab94338a44f1406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  sprite: {fileID: 21300000, guid: d30161e14a6229e40a96f4b6288e4eeb, type: 3}
+  set_foreground: 1
+  fade_out: 0
+  fade_in: 1
+  wait_for_all_fading: 1
 --- !u!1 &859286732
 GameObject:
   m_ObjectHideFlags: 0
@@ -20649,6 +20824,7 @@ GameObject:
   - component: {fileID: 975381759}
   - component: {fileID: 975381761}
   - component: {fileID: 975381760}
+  - component: {fileID: 975381762}
   m_Layer: 0
   m_Name: Dialogue (7)
   m_TagString: Untagged
@@ -20669,7 +20845,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &975381760
 AudioSource:
@@ -20798,6 +20974,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &975381762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975381758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &979084415
 GameObject:
   m_ObjectHideFlags: 0
@@ -20969,6 +21160,7 @@ GameObject:
   - component: {fileID: 981638411}
   - component: {fileID: 981638413}
   - component: {fileID: 981638412}
+  - component: {fileID: 981638414}
   m_Layer: 0
   m_Name: Dialogue (1)
   m_TagString: Untagged
@@ -20989,7 +21181,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &981638412
 AudioSource:
@@ -21118,6 +21310,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &981638414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981638410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &990935514
 GameObject:
   m_ObjectHideFlags: 0
@@ -21129,6 +21336,7 @@ GameObject:
   - component: {fileID: 990935515}
   - component: {fileID: 990935517}
   - component: {fileID: 990935516}
+  - component: {fileID: 990935518}
   m_Layer: 0
   m_Name: Dialogue (6)
   m_TagString: Untagged
@@ -21149,7 +21357,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &990935516
 AudioSource:
@@ -21278,6 +21486,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &990935518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990935514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &998537697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21826,7 +22049,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 17
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1036519556
 MonoBehaviour:
@@ -22423,6 +22646,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1891935353}
+  - {fileID: 2009238752}
   - {fileID: 1872836293}
   - {fileID: 1464294240}
   - {fileID: 1960871402}
@@ -22441,6 +22666,7 @@ Transform:
   - {fileID: 498427217}
   - {fileID: 824966395}
   - {fileID: 1036519555}
+  - {fileID: 848364249}
   - {fileID: 836068480}
   m_Father: {fileID: 2065046666}
   m_RootOrder: 1
@@ -26535,6 +26761,7 @@ GameObject:
   - component: {fileID: 1392560209}
   - component: {fileID: 1392560211}
   - component: {fileID: 1392560210}
+  - component: {fileID: 1392560212}
   m_Layer: 0
   m_Name: Dialogue (9)
   m_TagString: Untagged
@@ -26555,7 +26782,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1392560210
 AudioSource:
@@ -26684,6 +26911,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1392560212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392560208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1406608911
 GameObject:
   m_ObjectHideFlags: 0
@@ -27079,6 +27321,7 @@ GameObject:
   - component: {fileID: 1464294240}
   - component: {fileID: 1464294242}
   - component: {fileID: 1464294241}
+  - component: {fileID: 1464294243}
   m_Layer: 0
   m_Name: Dialogue (4)
   m_TagString: Untagged
@@ -27099,7 +27342,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1464294241
 AudioSource:
@@ -27228,6 +27471,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1464294243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464294239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1472471411
 GameObject:
   m_ObjectHideFlags: 0
@@ -31472,6 +31730,7 @@ GameObject:
   - component: {fileID: 1842714279}
   - component: {fileID: 1842714281}
   - component: {fileID: 1842714280}
+  - component: {fileID: 1842714282}
   m_Layer: 0
   m_Name: Dialogue (10)
   m_TagString: Untagged
@@ -31492,7 +31751,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1842714280
 AudioSource:
@@ -31621,6 +31880,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1842714282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842714278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!224 &1863585623 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
@@ -31637,6 +31911,7 @@ GameObject:
   - component: {fileID: 1872836293}
   - component: {fileID: 1872836295}
   - component: {fileID: 1872836294}
+  - component: {fileID: 1872836296}
   m_Layer: 0
   m_Name: Dialogue
   m_TagString: Untagged
@@ -31657,7 +31932,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1872836294
 AudioSource:
@@ -31786,6 +32061,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1872836296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872836292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1874076432
 GameObject:
   m_ObjectHideFlags: 0
@@ -31797,6 +32087,7 @@ GameObject:
   - component: {fileID: 1874076433}
   - component: {fileID: 1874076435}
   - component: {fileID: 1874076434}
+  - component: {fileID: 1874076436}
   m_Layer: 0
   m_Name: Dialogue (2)
   m_TagString: Untagged
@@ -31817,7 +32108,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1874076434
 AudioSource:
@@ -31946,6 +32237,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1874076436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874076432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &1878661695
 GameObject:
   m_ObjectHideFlags: 0
@@ -33686,6 +33992,57 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!1 &1891935352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891935353}
+  - component: {fileID: 1891935354}
+  m_Layer: 0
+  m_Name: Fade out to Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1891935353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891935352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1097174264}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1891935354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891935352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14efe4bb02d1ee841ab94338a44f1406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  sprite: {fileID: 21300000, guid: d30161e14a6229e40a96f4b6288e4eeb, type: 3}
+  set_foreground: 1
+  fade_out: 0
+  fade_in: 1
+  wait_for_all_fading: 1
 --- !u!1001 &1893466894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33927,6 +34284,7 @@ GameObject:
   - component: {fileID: 1960871402}
   - component: {fileID: 1960871404}
   - component: {fileID: 1960871403}
+  - component: {fileID: 1960871405}
   m_Layer: 0
   m_Name: Dialogue (5)
   m_TagString: Untagged
@@ -33947,7 +34305,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1960871403
 AudioSource:
@@ -34076,6 +34434,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &1960871405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960871401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1001 &1966197506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34871,6 +35244,72 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 055d54775d5803f47a39dc9b66c29a8f, type: 3}
+--- !u!1 &2009238751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009238752}
+  - component: {fileID: 2009238754}
+  - component: {fileID: 2009238753}
+  m_Layer: 0
+  m_Name: Fade in from Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2009238752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009238751}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1097174264}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2009238753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009238751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae561942d02efd6479240df1ebb914ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+--- !u!114 &2009238754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009238751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14efe4bb02d1ee841ab94338a44f1406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  sprite: {fileID: 21300000, guid: d30161e14a6229e40a96f4b6288e4eeb, type: 3}
+  set_foreground: 1
+  fade_out: 1
+  fade_in: 0
+  wait_for_all_fading: 1
 --- !u!1 &2032101249
 GameObject:
   m_ObjectHideFlags: 0
@@ -35042,6 +35481,7 @@ GameObject:
   - component: {fileID: 2057869429}
   - component: {fileID: 2057869431}
   - component: {fileID: 2057869430}
+  - component: {fileID: 2057869432}
   m_Layer: 0
   m_Name: Dialogue (13)
   m_TagString: Untagged
@@ -35062,7 +35502,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097174264}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2057869430
 AudioSource:
@@ -35191,6 +35631,21 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!114 &2057869432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057869428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5b8aef615bf46498951731ef435a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  auto_playing: 0
+  auto_play_delay: 1.5
+  use_player_prefs: 0
 --- !u!1 &2059965270
 GameObject:
   m_ObjectHideFlags: 0

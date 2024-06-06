@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Corkboard.unity
     guid: a1ffe95de50f2a140aee3f07a04a4c49
+  - enabled: 1
+    path: Assets/Scenes/Commercial.unity
+    guid: 6e15bd339009a2c44b50303019d615df
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: cda1e3a2e355758429d8831ec2bf6824, type: 2}

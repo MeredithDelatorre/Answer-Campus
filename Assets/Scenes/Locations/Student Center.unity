@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -181,7 +181,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 03f0f0470e48a2b4e940c45a206494d2, type: 3}
+      objectReference: {fileID: 21300000, guid: b56335658f2c6ba41a064c14b1e8c87b, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -192,6 +192,76 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
   m_PrefabInstance: {fileID: 37855277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &39628391
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 409183690}
+    m_Modifications:
+    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_Name
+      value: Change Breanna Image (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: new_image
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c39d5be82c8a27428117bce9bb5926d, type: 3}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: actor_name
+      value: Breanna2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+--- !u!4 &39628392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+  m_PrefabInstance: {fileID: 39628391}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &40075142
 GameObject:
@@ -384,7 +454,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &48491538
 AudioSource:
@@ -544,7 +614,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1447093380}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &58076764
 AudioSource:
@@ -673,6 +743,76 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!1001 &60232264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1447093380}
+    m_Modifications:
+    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_Name
+      value: Change Breanna Image (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: new_image
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e464405efd56364b8222ffeee85b04b, type: 3}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: actor_name
+      value: Breanna2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+--- !u!4 &60232265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+  m_PrefabInstance: {fileID: 60232264}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &72059953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -828,7 +968,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 1ce4b469f42dfb64c99af4cc675ab512, type: 3}
+      objectReference: {fileID: 21300000, guid: 1c36de5d4cb23214e874523beb9ad59d, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -898,7 +1038,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 7e59376594cb4774b9d09311296d5416, type: 3}
+      objectReference: {fileID: 21300000, guid: b56335658f2c6ba41a064c14b1e8c87b, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -1411,7 +1551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1499,7 +1639,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &161650260
 AudioSource:
@@ -1686,7 +1826,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 03f0f0470e48a2b4e940c45a206494d2, type: 3}
+      objectReference: {fileID: 21300000, guid: 7e59376594cb4774b9d09311296d5416, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -1827,7 +1967,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1872,7 +2012,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 1c36de5d4cb23214e874523beb9ad59d, type: 3}
+      objectReference: {fileID: 21300000, guid: 0220bbec63da5c44bb0287ab9c7bc563, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -2447,7 +2587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2778,7 +2918,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &277519530
 AudioSource:
@@ -3341,7 +3481,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 300160704}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &299553171
 AudioSource:
@@ -3505,14 +3645,15 @@ Transform:
   - {fileID: 533769016}
   - {fileID: 841254142}
   - {fileID: 1369084080}
+  - {fileID: 579389141}
   - {fileID: 386657032}
   - {fileID: 1511138763}
   - {fileID: 383510261}
-  - {fileID: 579389141}
-  - {fileID: 299553170}
   - {fileID: 766580589}
-  - {fileID: 674026767}
+  - {fileID: 299553170}
   - {fileID: 181985695}
+  - {fileID: 674026767}
+  - {fileID: 1689490587}
   - {fileID: 1284600547}
   - {fileID: 977818955}
   - {fileID: 1230625774}
@@ -3582,7 +3723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3697,7 +3838,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 1c36de5d4cb23214e874523beb9ad59d, type: 3}
+      objectReference: {fileID: 21300000, guid: 1ce4b469f42dfb64c99af4cc675ab512, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -5462,7 +5603,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5577,7 +5718,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: ab454a31d14b7554bb0936d8962ab729, type: 3}
+      objectReference: {fileID: 21300000, guid: 0220bbec63da5c44bb0287ab9c7bc563, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -5620,7 +5761,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 300160704}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &383510262
 AudioSource:
@@ -5762,7 +5903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403690, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 403690, guid: 05eddae6a7ea19a4db7b140e5865f0ca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6021,12 +6162,11 @@ Transform:
   - {fileID: 1215983415}
   - {fileID: 1404855183}
   - {fileID: 1441045239}
-  - {fileID: 1703907190}
   - {fileID: 1219179432}
   - {fileID: 1368738503}
-  - {fileID: 1151643511}
   - {fileID: 1986530752}
   - {fileID: 1319937228}
+  - {fileID: 1151643511}
   - {fileID: 1521411324}
   - {fileID: 48491537}
   - {fileID: 1681721299}
@@ -6038,7 +6178,7 @@ Transform:
   - {fileID: 626863053}
   - {fileID: 1486700471}
   - {fileID: 277519529}
-  - {fileID: 1798083623}
+  - {fileID: 39628392}
   - {fileID: 1060231817}
   - {fileID: 2058281010}
   - {fileID: 1105586066}
@@ -6456,7 +6596,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 9e63d90c726e87e43a3854e582d4803e, type: 3}
+      objectReference: {fileID: 21300000, guid: b56335658f2c6ba41a064c14b1e8c87b, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -6498,7 +6638,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1447093380}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &490878799
 MonoBehaviour:
@@ -8282,7 +8422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9084,7 +9224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11273,7 +11413,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &626863054
 AudioSource:
@@ -11562,6 +11702,76 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
+--- !u!1001 &668256373
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 755055953}
+    m_Modifications:
+    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_Name
+      value: Change Image (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: new_image
+      value: 
+      objectReference: {fileID: 21300000, guid: 461cc3d8d0b3ed34f876ab0713865708, type: 3}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: actor_name
+      value: Leilani
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+--- !u!4 &668256374 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+  m_PrefabInstance: {fileID: 668256373}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &674026766
 GameObject:
   m_ObjectHideFlags: 0
@@ -11593,7 +11803,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 300160704}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &674026768
 AudioSource:
@@ -13505,7 +13715,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 27
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &727806948
 MonoBehaviour:
@@ -13554,7 +13764,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &732968336
 MonoBehaviour:
@@ -13690,33 +13900,34 @@ Transform:
   m_Children:
   - {fileID: 816927175180385909}
   - {fileID: 816927176012015282}
-  - {fileID: 816927175500359484}
-  - {fileID: 732968335}
-  - {fileID: 816927176115545564}
   - {fileID: 816927176289008237}
+  - {fileID: 816927176115545564}
+  - {fileID: 732968335}
   - {fileID: 816927175875858469}
-  - {fileID: 816927176003060969}
   - {fileID: 816927176932076936}
-  - {fileID: 816927175380961575}
+  - {fileID: 816927176003060969}
   - {fileID: 816927175312555804}
+  - {fileID: 816927175380961575}
+  - {fileID: 816927175500359484}
   - {fileID: 816927175212953603}
-  - {fileID: 816927176218184994}
   - {fileID: 816927177216915458}
   - {fileID: 816927176909803534}
   - {fileID: 816927175987386037}
+  - {fileID: 668256374}
   - {fileID: 816927176396001103}
   - {fileID: 816927176830574799}
   - {fileID: 816927175252369450}
   - {fileID: 816927175780766830}
   - {fileID: 816927175400812476}
-  - {fileID: 985948597}
-  - {fileID: 816927175509026578}
   - {fileID: 816927175728910890}
   - {fileID: 1268402692}
   - {fileID: 1203390566}
   - {fileID: 1204502502}
-  - {fileID: 727806947}
+  - {fileID: 816927175509026578}
+  - {fileID: 1375420622}
+  - {fileID: 985948597}
   - {fileID: 1586328244}
+  - {fileID: 727806947}
   m_Father: {fileID: 561909551}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14007,7 +14218,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 1c36de5d4cb23214e874523beb9ad59d, type: 3}
+      objectReference: {fileID: 21300000, guid: 1ce4b469f42dfb64c99af4cc675ab512, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -14032,7 +14243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14190,7 +14401,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &772346045
 AudioSource:
@@ -14435,7 +14646,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 1c36de5d4cb23214e874523beb9ad59d, type: 3}
+      objectReference: {fileID: 21300000, guid: 1ce4b469f42dfb64c99af4cc675ab512, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -14575,7 +14786,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 0220bbec63da5c44bb0287ab9c7bc563, type: 3}
+      objectReference: {fileID: 21300000, guid: ab454a31d14b7554bb0936d8962ab729, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -15035,7 +15246,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1924759238}
-  m_RootOrder: 12
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &878167097
 MonoBehaviour:
@@ -16815,7 +17026,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 96b7804691a70cf4eb75bd0136ad442e, type: 3}
+      objectReference: {fileID: 21300000, guid: 8c39d5be82c8a27428117bce9bb5926d, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -18988,7 +19199,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 03f0f0470e48a2b4e940c45a206494d2, type: 3}
+      objectReference: {fileID: 21300000, guid: 7e59376594cb4774b9d09311296d5416, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -19083,7 +19294,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19171,7 +19382,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 21
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &985948598
 AudioSource:
@@ -19331,7 +19542,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &990299106
 AudioSource:
@@ -20131,7 +20342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20219,7 +20430,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1447093380}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1060610573
 MonoBehaviour:
@@ -20312,7 +20523,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 9e63d90c726e87e43a3854e582d4803e, type: 3}
+      objectReference: {fileID: 21300000, guid: da9aba289f5bd204bb99ca7a220ccaf6, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -20515,7 +20726,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1924759238}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1105161225
 AudioSource:
@@ -20674,7 +20885,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1105586067
 MonoBehaviour:
@@ -22396,76 +22607,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
---- !u!1001 &1124593469
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1477385326}
-    m_Modifications:
-    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_Name
-      value: Change Breanna Image (27)
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_RootOrder
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: new_image
-      value: 
-      objectReference: {fileID: 21300000, guid: 43bc67c789548904b9774ca0a866a445, type: 3}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: actor_name
-      value: Breanna2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
---- !u!4 &1124593470 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-  m_PrefabInstance: {fileID: 1124593469}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1127804788
 GameObject:
   m_ObjectHideFlags: 0
@@ -24232,7 +24373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24277,7 +24418,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 0220bbec63da5c44bb0287ab9c7bc563, type: 3}
+      objectReference: {fileID: 21300000, guid: df5cb74e5629d184ca70241b018718c9, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -24320,7 +24461,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1166645367
 AudioSource:
@@ -24480,7 +24621,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1187534783
 AudioSource:
@@ -24639,7 +24780,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 25
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1203390567
 MonoBehaviour:
@@ -24692,7 +24833,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 26
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1204502503
 MonoBehaviour:
@@ -25186,7 +25327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25434,7 +25575,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 300160704}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1230625775
 AudioSource:
@@ -25652,76 +25793,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5341683111161062728, guid: 54d0f9b1cd3dac341b1b117d93b943bb, type: 3}
   m_PrefabInstance: {fileID: 1247231103}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1248369924
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1924759238}
-    m_Modifications:
-    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_Name
-      value: Change Breanna Image (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: new_image
-      value: 
-      objectReference: {fileID: 21300000, guid: 2fdbb15c322221d418a30e4a3c4a6676, type: 3}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: actor_name
-      value: Breanna2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
---- !u!4 &1248369925 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-  m_PrefabInstance: {fileID: 1248369924}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1252499585
 GameObject:
@@ -26070,7 +26141,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 24
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1268402693
 MonoBehaviour:
@@ -26124,7 +26195,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1273661851
 AudioSource:
@@ -26604,7 +26675,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 300160704}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1284600548
 AudioSource:
@@ -26924,7 +26995,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1319937229
 AudioSource:
@@ -27271,7 +27342,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 96b7804691a70cf4eb75bd0136ad442e, type: 3}
+      objectReference: {fileID: 21300000, guid: 047fcc33e7a299b4f9416a9f381317ee, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -27474,7 +27545,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1368738504
 AudioSource:
@@ -27763,76 +27834,6 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
---- !u!1001 &1370187000
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1924759238}
-    m_Modifications:
-    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_Name
-      value: Change Breanna Image (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: new_image
-      value: 
-      objectReference: {fileID: 21300000, guid: 8c39d5be82c8a27428117bce9bb5926d, type: 3}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: actor_name
-      value: Breanna2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
---- !u!4 &1370187001 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-  m_PrefabInstance: {fileID: 1370187000}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1372351505
 GameObject:
   m_ObjectHideFlags: 0
@@ -28063,6 +28064,76 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
   m_PrefabInstance: {fileID: 1372419889}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1375420621
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 755055953}
+    m_Modifications:
+    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_Name
+      value: Change Image (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: new_image
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f80153007d734b408103605110c1865, type: 3}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: actor_name
+      value: Deepak
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+--- !u!4 &1375420622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+  m_PrefabInstance: {fileID: 1375420621}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1375814436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28121,7 +28192,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 1c36de5d4cb23214e874523beb9ad59d, type: 3}
+      objectReference: {fileID: 21300000, guid: 1ce4b469f42dfb64c99af4cc675ab512, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -28233,7 +28304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 755055954}
+  start_conversation_when_done: {fileID: 1447093381}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -28978,7 +29049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29066,9 +29137,10 @@ Transform:
   m_Children:
   - {fileID: 2117385550}
   - {fileID: 563407769}
+  - {fileID: 149587775}
   - {fileID: 1060610572}
   - {fileID: 58076763}
-  - {fileID: 149587775}
+  - {fileID: 60232265}
   - {fileID: 490878798}
   m_Father: {fileID: 178533259}
   m_RootOrder: 0
@@ -29292,7 +29364,6 @@ Transform:
   - {fileID: 756894111}
   - {fileID: 164373183}
   - {fileID: 545888173}
-  - {fileID: 1516984328}
   - {fileID: 1713058519}
   - {fileID: 1166645366}
   - {fileID: 37855278}
@@ -29300,11 +29371,10 @@ Transform:
   - {fileID: 253464050}
   - {fileID: 990299105}
   - {fileID: 1931082409}
-  - {fileID: 840619168}
   - {fileID: 1827742363}
+  - {fileID: 840619168}
   - {fileID: 1737317189}
   - {fileID: 161650259}
-  - {fileID: 1124593470}
   - {fileID: 359242145}
   - {fileID: 772346044}
   - {fileID: 1788946450}
@@ -29519,7 +29589,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1485083955
 AudioSource:
@@ -29661,7 +29731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29801,7 +29871,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29928,76 +29998,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
   m_PrefabInstance: {fileID: 1514598367}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1516984327
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1477385326}
-    m_Modifications:
-    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_Name
-      value: Change Breanna Image (28)
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: new_image
-      value: 
-      objectReference: {fileID: 21300000, guid: 7e59376594cb4774b9d09311296d5416, type: 3}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: actor_name
-      value: Breanna2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
---- !u!4 &1516984328 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-  m_PrefabInstance: {fileID: 1516984327}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1520394901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30081,7 +30081,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30151,7 +30151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32779,7 +32779,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1924759238}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1637084199
 AudioSource:
@@ -33241,7 +33241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33286,7 +33286,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: df5cb74e5629d184ca70241b018718c9, type: 3}
+      objectReference: {fileID: 21300000, guid: 74e19881fe900d3439a62e8b22c2a696, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Eric
@@ -33372,6 +33372,76 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2493814459876607703, guid: 055d54775d5803f47a39dc9b66c29a8f, type: 3}
   m_PrefabInstance: {fileID: 1988796963}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1689490586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 300160704}
+    m_Modifications:
+    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_Name
+      value: Change Eric Image (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: new_image
+      value: 
+      objectReference: {fileID: 21300000, guid: 1ce4b469f42dfb64c99af4cc675ab512, type: 3}
+    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+      propertyPath: actor_name
+      value: Eric
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+--- !u!4 &1689490587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
+  m_PrefabInstance: {fileID: 1689490586}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1691084643
 GameObject:
@@ -33693,76 +33763,6 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
---- !u!1001 &1703907189
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 409183690}
-    m_Modifications:
-    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_Name
-      value: Change Breanna Image (33)
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: new_image
-      value: 
-      objectReference: {fileID: 21300000, guid: 8c39d5be82c8a27428117bce9bb5926d, type: 3}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: actor_name
-      value: Breanna2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
---- !u!4 &1703907190 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-  m_PrefabInstance: {fileID: 1703907189}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1706457480
 GameObject:
   m_ObjectHideFlags: 0
@@ -33936,7 +33936,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34166,7 +34166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34413,7 +34413,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 300160704}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1772203803
 MonoBehaviour:
@@ -36108,7 +36108,7 @@ MonoBehaviour:
         m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1924759237}
+      - m_Target: {fileID: 1531022378}
         m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
         m_MethodName: Start_Conversation
         m_Mode: 1
@@ -36236,7 +36236,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 21
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1788946451
 MonoBehaviour:
@@ -38118,76 +38118,6 @@ MonoBehaviour:
   done_printing: 0
   no_voice_playing: 0
   done_voice_clip: 0
---- !u!1001 &1798083622
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 409183690}
-    m_Modifications:
-    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_Name
-      value: Change Breanna Image (34)
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_RootOrder
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: new_image
-      value: 
-      objectReference: {fileID: 21300000, guid: 8c39d5be82c8a27428117bce9bb5926d, type: 3}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: actor_name
-      value: Breanna2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
---- !u!4 &1798083623 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-  m_PrefabInstance: {fileID: 1798083622}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1799009020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38201,7 +38131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38289,7 +38219,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1924759238}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1810885214
 AudioSource:
@@ -40202,7 +40132,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 15
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1827742364
 AudioSource:
@@ -42439,14 +42369,12 @@ Transform:
   m_Children:
   - {fileID: 284627617}
   - {fileID: 293640274}
-  - {fileID: 519650503}
   - {fileID: 343868950}
   - {fileID: 1810885213}
-  - {fileID: 2118780476}
+  - {fileID: 519650503}
   - {fileID: 1637084198}
-  - {fileID: 1248369925}
+  - {fileID: 2118780476}
   - {fileID: 1105161224}
-  - {fileID: 1370187001}
   - {fileID: 966424744}
   - {fileID: 1933654683}
   - {fileID: 878167096}
@@ -42536,7 +42464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42624,7 +42552,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1924759238}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1933654684
 AudioSource:
@@ -43023,7 +42951,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: b56335658f2c6ba41a064c14b1e8c87b, type: 3}
+      objectReference: {fileID: 21300000, guid: 96b7804691a70cf4eb75bd0136ad442e, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -43048,7 +42976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43555,7 +43483,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 409183690}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2058281011
 AudioSource:
@@ -43909,7 +43837,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 96b7804691a70cf4eb75bd0136ad442e, type: 3}
+      objectReference: {fileID: 21300000, guid: 047fcc33e7a299b4f9416a9f381317ee, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -44304,7 +44232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44349,7 +44277,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 84c9a4d98d618b1428dc54abe7938aa9, type: 3}
+      objectReference: {fileID: 21300000, guid: b56335658f2c6ba41a064c14b1e8c87b, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Breanna2
@@ -44791,7 +44719,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: 461cc3d8d0b3ed34f876ab0713865708, type: 3}
+      objectReference: {fileID: 21300000, guid: a1293721b5baa034cb439e2d913bd7b1, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Leilani
@@ -44816,7 +44744,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45091,7 +45019,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: a1293721b5baa034cb439e2d913bd7b1, type: 3}
+      objectReference: {fileID: 21300000, guid: b3c8a8fea65b38347a6181091d4bcea2, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Leilani
@@ -45116,7 +45044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45186,7 +45114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45231,7 +45159,7 @@ PrefabInstance:
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: new_image
       value: 
-      objectReference: {fileID: 21300000, guid: b3c8a8fea65b38347a6181091d4bcea2, type: 3}
+      objectReference: {fileID: 21300000, guid: 461cc3d8d0b3ed34f876ab0713865708, type: 3}
     - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: actor_name
       value: Leilani
@@ -45252,7 +45180,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 30640523791286705, guid: c6c96011818384806a063571a6eee403, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 30640523791286705, guid: c6c96011818384806a063571a6eee403, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45500,7 +45428,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &816927175875858470
 AudioSource:
@@ -45619,7 +45547,7 @@ MonoBehaviour:
   fetch_localized_stat_value: 0
   dialogue_from: 0
   localized_key: 
-  text: Welcome to Cranes College.
+  text: Welcome to Cranes College!
   talking_beeps: {fileID: 0}
   darken_all_other_characters: 1
   bring_speaker_to_front: 1
@@ -45642,7 +45570,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45924,7 +45852,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45981,76 +45909,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
   m_PrefabInstance: {fileID: 816927176115545563}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &816927176218184993
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 755055953}
-    m_Modifications:
-    - target: {fileID: 154954, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_Name
-      value: Change Image (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: new_image
-      value: 
-      objectReference: {fileID: 21300000, guid: da364da1e4e30b749beb09dbc6af1ca2, type: 3}
-    - target: {fileID: 11403902, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-      propertyPath: actor_name
-      value: Leilani
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
---- !u!4 &816927176218184994 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
-  m_PrefabInstance: {fileID: 816927176218184993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &816927176289008236
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46064,7 +45922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46413,7 +46271,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 755055953}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &816927176909803535
 AudioSource:
@@ -46524,7 +46382,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46594,7 +46452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 446614, guid: 0525e4528d69c7c40b354d4a011b5b0f, type: 3}
       propertyPath: m_LocalPosition.x

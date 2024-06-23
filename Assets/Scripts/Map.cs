@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Map : MonoBehaviour
 {
@@ -14,6 +16,15 @@ public class Map : MonoBehaviour
     {
 //        System.DateTime.Now.ToShortTimeString()
 //        timestamp = Time.time;
+
+        for(int i = 0; i < locations.Count; i++)
+        {
+            if(SceneManager.GetActiveScene().name == locations[i].scene)
+            {
+            locations[i].GetComponent<Button>().enabled = false;
+
+            }
+        }
     }
 
     // Update is called once per frame

@@ -14401,7 +14401,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1477385326}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &772346045
 AudioSource:
@@ -15246,7 +15246,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1924759238}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &878167097
 MonoBehaviour:
@@ -28304,7 +28304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destroy_when_finished: 0
-  start_conversation_when_done: {fileID: 1447093381}
+  start_conversation_when_done: {fileID: 755055954}
   cur_node: 0
   active: 0
   finished_conversation: 0
@@ -29375,8 +29375,8 @@ Transform:
   - {fileID: 840619168}
   - {fileID: 1737317189}
   - {fileID: 161650259}
-  - {fileID: 359242145}
   - {fileID: 772346044}
+  - {fileID: 359242145}
   - {fileID: 1788946450}
   m_Father: {fileID: 178533259}
   m_RootOrder: 7
@@ -42375,9 +42375,9 @@ Transform:
   - {fileID: 1637084198}
   - {fileID: 2118780476}
   - {fileID: 1105161224}
-  - {fileID: 966424744}
   - {fileID: 1933654683}
   - {fileID: 878167096}
+  - {fileID: 966424744}
   m_Father: {fileID: 178533259}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -42552,7 +42552,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1924759238}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1933654684
 AudioSource:

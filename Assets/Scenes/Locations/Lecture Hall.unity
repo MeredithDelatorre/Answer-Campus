@@ -380,7 +380,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &43592265
@@ -726,7 +726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -900
+      value: -700
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -795,7 +795,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &80883896
@@ -2170,7 +2170,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &158810573
@@ -3439,7 +3439,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &270996184
@@ -3652,7 +3652,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &282285650
@@ -3754,7 +3754,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 8924711cf5f4a704899db7c2dc93127d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &292855972
@@ -3859,7 +3859,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 7352e1374b0d13a41b44565039240836, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &328175678
@@ -5178,7 +5178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -900
+      value: -700
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6005,7 +6005,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &561909550
@@ -6264,7 +6264,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 8924711cf5f4a704899db7c2dc93127d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &623147482
@@ -6316,7 +6316,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &642727322
@@ -6354,6 +6354,7 @@ Transform:
   - {fileID: 30393955}
   - {fileID: 242210405}
   - {fileID: 713144106}
+  - {fileID: 1740965648}
   - {fileID: 898670242}
   m_Father: {fileID: 701395937}
   m_RootOrder: 18
@@ -6685,7 +6686,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 4e4bb958f8373e54ea1fa5a0b13142c7, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &701395936
@@ -7022,7 +7023,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &733384610
@@ -7572,7 +7573,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 90084ef2712cf8b48b294dd04ca40b95, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &798063522
@@ -7624,7 +7625,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: bf4f3c41ef386174fba5ac6f5acd09f0, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &804537322
@@ -7780,7 +7781,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 4e4bb958f8373e54ea1fa5a0b13142c7, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &840221233
@@ -7832,7 +7833,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &843499780
@@ -7884,7 +7885,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &856540212
@@ -8308,7 +8309,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 4e4bb958f8373e54ea1fa5a0b13142c7, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &875355167
@@ -8360,7 +8361,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &876729566
@@ -8412,7 +8413,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 4e4bb958f8373e54ea1fa5a0b13142c7, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &887969760
@@ -8605,7 +8606,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 642727323}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &898670243
 MonoBehaviour:
@@ -8904,7 +8905,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &918124422
@@ -9117,7 +9118,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &951194223
@@ -9169,7 +9170,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &953601715
@@ -9432,7 +9433,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Leilani
   new_image: {fileID: 21300000, guid: fb368e9b3e90fd34c8cff29334b18b36, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1014609446
@@ -9590,7 +9591,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Leilani
   new_image: {fileID: 21300000, guid: 68b94801af5587f4380bde6616a93256, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1030882008
@@ -9802,7 +9803,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: bf4f3c41ef386174fba5ac6f5acd09f0, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1054895728
@@ -9854,7 +9855,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Leilani
   new_image: {fileID: 21300000, guid: dc61f442af4be9c4cbd0e815d689a861, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1080409921
@@ -9906,7 +9907,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1105432461
@@ -10120,7 +10121,7 @@ MonoBehaviour:
   entrance_type: 1
   fade_in_time: 1
   destination: 3
-  custom_position: {fileID: 4909160718463724324}
+  custom_position: {fileID: 7509519031959263436}
 --- !u!1 &1127676304
 GameObject:
   m_ObjectHideFlags: 0
@@ -10221,7 +10222,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Leilani
   new_image: {fileID: 21300000, guid: 68b94801af5587f4380bde6616a93256, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1139919556
@@ -10326,7 +10327,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1178741555
@@ -10698,7 +10699,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1207152470
@@ -10800,7 +10801,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1233831950
@@ -11485,7 +11486,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1285860212
@@ -11537,7 +11538,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1292660703
@@ -11591,7 +11592,7 @@ MonoBehaviour:
   entrance_type: 1
   fade_in_time: 1
   destination: 3
-  custom_position: {fileID: 7509519031959263436}
+  custom_position: {fileID: 4909160718463724324}
 --- !u!1 &1310501473
 GameObject:
   m_ObjectHideFlags: 0
@@ -11801,7 +11802,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1314606845
@@ -11853,7 +11854,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1354633845
@@ -12386,7 +12387,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1406177915
@@ -12438,7 +12439,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 609455da617ef43478416ba53f1ab05f, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1406608911
@@ -12981,7 +12982,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1001 &1450658868
@@ -13061,7 +13062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -900
+      value: -700
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13130,7 +13131,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1476764332
@@ -13182,7 +13183,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1490653174
@@ -14656,7 +14657,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1680363075
@@ -15137,7 +15138,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 4e4bb958f8373e54ea1fa5a0b13142c7, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1739115723
@@ -15240,9 +15241,169 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
+--- !u!1 &1740965647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740965648}
+  - component: {fileID: 1740965650}
+  - component: {fileID: 1740965649}
+  m_Layer: 0
+  m_Name: Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1740965648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740965647}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 642727323}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1740965649
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740965647}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1740965650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740965647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b40beeb965e5d9419bf817d6f7d59bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go_to_next_node: 1
+  executed_from_load: 0
+  actor_name_from: 0
+  actor: Professor Blanche
+  speaker_name_from: 0
+  textbox_title: Professor
+  fetch_localized_stat_value: 0
+  dialogue_from: 0
+  localized_key: 
+  text: Yes?
+  talking_beeps: {fileID: 0}
+  darken_all_other_characters: 1
+  bring_speaker_to_front: 1
+  clear_text_after: 0
+  log_text: 1
+  log_category: Default
+  done_printing: 0
+  no_voice_playing: 0
+  done_voice_clip: 0
 --- !u!1 &1759049244
 GameObject:
   m_ObjectHideFlags: 0
@@ -15825,7 +15986,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1829346578
@@ -16620,7 +16781,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 4e4bb958f8373e54ea1fa5a0b13142c7, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1938124122
@@ -16952,7 +17113,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1952761850
@@ -17004,7 +17165,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 75fa20bb22eebc3429081baf24c967cd, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1955577126
@@ -17216,7 +17377,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Leilani
   new_image: {fileID: 21300000, guid: 68b94801af5587f4380bde6616a93256, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &1966399657
@@ -17268,7 +17429,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Leilani
   new_image: {fileID: 21300000, guid: b3c8a8fea65b38347a6181091d4bcea2, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1001 &1988796963
@@ -17437,7 +17598,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Leilani
   new_image: {fileID: 21300000, guid: 68b94801af5587f4380bde6616a93256, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &2005466470
@@ -18212,7 +18373,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &2073497514
@@ -18266,7 +18427,7 @@ MonoBehaviour:
   entrance_type: 1
   fade_in_time: 1
   destination: 3
-  custom_position: {fileID: 4909160718463724324}
+  custom_position: {fileID: 7509519031959263436}
 --- !u!1 &2082816277
 GameObject:
   m_ObjectHideFlags: 0
@@ -18689,7 +18850,7 @@ MonoBehaviour:
   actor_name_from: 0
   actor_name: Professor Blanche
   new_image: {fileID: 21300000, guid: 08546d42c5bfce74aa5f4550671f9a0d, type: 3}
-  fade_in_new_image: 1
+  fade_in_new_image: 0
   lighten_actor: 0
   bring_actor_to_front: 0
 --- !u!1 &2107134722
@@ -19470,7 +19631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4909160717508902567, guid: f2202413b007c06439e79e6c2eda6c6d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -900
+      value: -700
       objectReference: {fileID: 0}
     - target: {fileID: 4909160717508902567, guid: f2202413b007c06439e79e6c2eda6c6d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19568,7 +19729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -900
+      value: -700
       objectReference: {fileID: 0}
     - target: {fileID: 7509519032867895242, guid: 050186d06c7d3ba4ebfcd126475dd89e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

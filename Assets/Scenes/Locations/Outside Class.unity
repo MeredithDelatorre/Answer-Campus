@@ -1272,8 +1272,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1741755381}
   - {fileID: 2096840376}
+  - {fileID: 1741755381}
   m_Father: {fileID: 942963924}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5454,7 +5454,7 @@ MonoBehaviour:
   entrance_type: 1
   fade_in_time: 1
   destination: 3
-  custom_position: {fileID: 7509519031959263436}
+  custom_position: {fileID: 4909160718463724324}
 --- !u!1 &783001821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8583522059737696776, guid: 64ec618914d13a84782e9657b0d1e11b, type: 3}
@@ -8360,10 +8360,10 @@ MonoBehaviour:
   executed_from_load: 0
   actor_name: Leilani
   actor_name_from: 0
-  entrance_type: 0
+  entrance_type: 1
   fade_in_time: 1
-  destination: 0
-  custom_position: {fileID: 0}
+  destination: 3
+  custom_position: {fileID: 7509519031959263436}
 --- !u!1 &1134861801
 GameObject:
   m_ObjectHideFlags: 0
@@ -12803,7 +12803,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 54861066}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1741755382
 MonoBehaviour:
@@ -16262,7 +16262,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 54861066}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2096840377
 MonoBehaviour:
@@ -16663,6 +16663,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2202413b007c06439e79e6c2eda6c6d, type: 3}
+--- !u!224 &4909160718463724324 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4909160717508902567, guid: f2202413b007c06439e79e6c2eda6c6d, type: 3}
+  m_PrefabInstance: {fileID: 4909160718463724323}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7509519031959263435
 PrefabInstance:
   m_ObjectHideFlags: 0

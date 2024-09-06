@@ -25,7 +25,6 @@ namespace VNEngine
                 Actor actor = ActorManager.Get_Actor(actual_actor_name);
                 SaveManager.SetSaveFeature(this, actor.gameObject);
 
-                Debug.Log("Actor on scene " + actor.actor_name);
 
                 if (fade_in_new_image)
                 {

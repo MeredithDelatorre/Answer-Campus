@@ -30,7 +30,7 @@ namespace VNEngine
             if (ActorManager.Is_Actor_On_Scene(actual_actor_name))
             {
                 // Actor is already on the scene
-                Debug.Log("Actor " + actual_actor_name + " already on scene");
+
                 actor_script = ActorManager.Get_Actor(actual_actor_name).GetComponent<Actor>();
                 Finish_Node();
                 return;

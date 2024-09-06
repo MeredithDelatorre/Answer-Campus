@@ -81,11 +81,13 @@ namespace VNEngine
             for (int x = 0; x < Number_Of_Conditions; x++)
             {
                 bool cur_condition = false;
-
+                Debug.Log("NUMBER OF CONDITIONS: " + Number_Of_Conditions);
+                Debug.Log("CONDITION " + x + Conditions[x].ToString());
                 // Evaluate each condition sequentially
                 switch (Conditions[x])
                 {
                     case Condition.Bool_Stat_Requirement:
+                        Debug.Log("BOOL STAT REQ: " + cur_condition + "STAT: " + Stat_Name[x] + " BOOL COMPARE " + Bool_Compare_Value[x]);
                         cur_condition = StatsManager.Compare_Bool_Stat_To(Stat_Name[x], Bool_Compare_Value[x]);
                         break;
 

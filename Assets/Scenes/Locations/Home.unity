@@ -2799,7 +2799,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1283728859}
   m_HandleRect: {fileID: 1283728858}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4781,7 +4781,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1866778146}
   m_HandleRect: {fileID: 1866778145}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 0.9999998
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5878,7 +5878,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241257047}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 837c07bd51cf9cf48be77c847752e31e, type: 3}
   m_Name: 
@@ -8824,7 +8824,7 @@ RectTransform:
   m_Father: {fileID: 33791229}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.00000017881393, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}

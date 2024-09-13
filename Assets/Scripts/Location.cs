@@ -20,6 +20,22 @@ public class Location : MonoBehaviour
     }
     public void GoToLocation()
     {
+        List<CharacterLocation> characterLocations = PlayerPrefsExtra.GetList<CharacterLocation>("characterLocations", new List<CharacterLocation>());
+        int locationIndex = -1;
+        for(int i = 0; i < characterLocations.Count; i++) {
+            if(characterLocations[i].location.Contains(scene))
+            {
+                locationIndex = i;
+
+            }
+        }
+        if(locationIndex > -1)
+        {
+            characterLocations.RemoveAt(locationIndex);
+        }
+
+        PlayerPrefsExtra.SetList<CharacterLocation>("characterLocations", characterLocations);
+
         //        PlayerPrefs.SetString("Current Conversation", conversation);
         if (StatsManager.Boolean_Stat_Exists("Minutes Passed"))
         {
@@ -29,6 +45,7 @@ public class Location : MonoBehaviour
         {
             StatsManager.Set_Numbered_Stat("Minutes Passed", minutes);
         }
+
         SceneManager.LoadScene(scene);
 
     }

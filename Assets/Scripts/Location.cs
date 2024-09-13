@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.SceneManagement;
 using VNEngine;
+using UnityEngine.UI;
 
 public class Location : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class Location : MonoBehaviour
     public string timestamp;
     public int minutes;
     public bool played = false;
-
+    public Image characterWaiting;
 
     private void Start()
     {

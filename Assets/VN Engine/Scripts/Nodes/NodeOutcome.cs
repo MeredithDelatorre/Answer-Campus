@@ -30,10 +30,20 @@ namespace VNEngine
             {
                 StatsManager.Set_Numbered_Stat(friendRelationships[i].friend, (int)friendRelationships[i].relationship);
             }
+            
 
             List<TextMessage> messages = PlayerPrefsExtra.GetList<TextMessage>("messages", new List<TextMessage>());
-            messages.Add(textMessage);
-            PlayerPrefsExtra.SetList("messages", messages);
+            if(!messages.Contains(textMessage))
+            {
+                Debug.Log("New Text Message From : " + textMessage.from);
+                messages.Add(textMessage);
+                PlayerPrefsExtra.SetList("messages", messages);
+            }
+            else
+            {
+                Debug.Log("Duplicate Message From : " + textMessage.from);
+
+            }
             Finish_Node();
         }
 

@@ -9741,6 +9741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Conversation Outcome
       objectReference: {fileID: 0}
+    - target: {fileID: 9013862939904595406, guid: 54d0f9b1cd3dac341b1b117d93b943bb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54d0f9b1cd3dac341b1b117d93b943bb, type: 3}
 --- !u!4 &473229020 stripped

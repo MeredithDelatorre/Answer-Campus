@@ -59,7 +59,6 @@ public class TextMessageList : MonoBehaviour
             Destroy(list[i].gameObject);
         }
     }
-
     private void LoadThread(Character from, List<TextMessage> messages)
     {
         Debug.Log("LOADING THREAD FOR " + from.ToString());
@@ -88,27 +87,30 @@ public class TextMessageList : MonoBehaviour
                 }
                 //change to view message
                 string loc = messages[i].location;
-                likeMessageButton.onClick.AddListener(() => GoToLocation(loc));
+                likeMessageButton.onClick.AddListener(() => GoToLocation(loc, i));
+                likeMessageButton.onClick.AddListener(() => GoToLocation(loc, i));
 
-//                go.GetComponent<ViewTextMessage>().from.text = messages[i].from.ToString();
-/*
-                for (int j = 0; j < profiles.Length; j++)
-                {
-                    if (profiles[j].character == messages[i].from)
-                    {
-                        go.GetComponent<ViewTextMessage>().profile.sprite = profiles[j].picture;
-                    }
-                }
-*/
+                //                go.GetComponent<ViewTextMessage>().from.text = messages[i].from.ToString();
+                /*
+                                for (int j = 0; j < profiles.Length; j++)
+                                {
+                                    if (profiles[j].character == messages[i].from)
+                                    {
+                                        go.GetComponent<ViewTextMessage>().profile.sprite = profiles[j].picture;
+                                    }
+                                }
+                */
             }
         }
         transform.parent.parent.parent.gameObject.SetActive(false);
     }
 
-    private void GoToLocation(string location)
+    private void GoToLocation(string location, int index)
     {
         Debug.Log("Going to " + location);
         SceneManager.LoadScene(location);
     }
+
+
 
 }

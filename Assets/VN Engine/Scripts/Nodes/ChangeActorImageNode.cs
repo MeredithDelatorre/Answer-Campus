@@ -53,8 +53,6 @@ namespace VNEngine
                 }
                 else
                 {
-                    Debug.Log("Actor on scene " + actor.actor_name);
-
                     actor.cur_image.overrideSprite = new_image;
                     Finish_Node();
                 }

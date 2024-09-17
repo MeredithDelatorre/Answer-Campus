@@ -22,9 +22,12 @@ public class Location : MonoBehaviour
     {
         List<CharacterLocation> characterLocations = PlayerPrefsExtra.GetList<CharacterLocation>("characterLocations", new List<CharacterLocation>());
         int locationIndex = -1;
+        Debug.Log("LOCATION LIST: " + characterLocations);
         for(int i = 0; i < characterLocations.Count; i++) {
             if(characterLocations[i].location.Contains(scene))
             {
+                Debug.Log("LT: " + characterLocations);
+
                 locationIndex = i;
 
             }
@@ -46,10 +49,24 @@ public class Location : MonoBehaviour
             StatsManager.Set_Numbered_Stat("Minutes Passed", minutes);
         }
 
+        if(StatsManager.String_Stat_Exists("Random Encounter"))
+        {
+            if(StatsManager.Get_String_Stat("Random Encounter").Contains("None")) {
+                //already visited
+            }
+            else
+            {
+                scene = StatsManager.Get_String_Stat("Random Encounter");
+            }
+            StatsManager.Set_String_Stat("Random Encounter", "None");
+            Debug.Log("Random Encounter Activated: " + scene + " is new location.");
+
+        }
+
         SceneManager.LoadScene(scene);
 
     }
-    
+
     public void SetTimestamp()
     {
         timestamp = DateTime.Now.ToString("f");

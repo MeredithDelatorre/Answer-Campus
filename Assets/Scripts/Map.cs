@@ -38,14 +38,14 @@ public class Map : MonoBehaviour
                             // Assign the profile picture to the location's UI
                             locations[i].characterWaiting.sprite = characters.profiles[j].picture;
                             locations[i].characterWaiting.gameObject.SetActive(true); // Show the profile picture
-                            break; // Exit the loop once the correct profile is found
+//                            break; // Exit the loop once the correct profile is found
                         }
                     }
 
                 }
                 else
                 {
-                    locations[i].characterWaiting.gameObject.SetActive(false);
+ //                   locations[i].characterWaiting.gameObject.SetActive(false);
 
                 }
             }

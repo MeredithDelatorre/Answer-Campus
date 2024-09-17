@@ -17351,7 +17351,7 @@ GameObject:
   - component: {fileID: 271295711}
   - component: {fileID: 271295712}
   m_Layer: 0
-  m_Name: Show Choices (1)
+  m_Name: Choose Full Team or Art Project
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17393,7 +17393,7 @@ MonoBehaviour:
   Localize_Choice_Text: 0
   Button_Text:
   - I'm down!
-  - Glad you two made up!
+  - What about Deepak?
   - 
   - 
   - 

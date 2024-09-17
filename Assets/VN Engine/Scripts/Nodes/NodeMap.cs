@@ -10,6 +10,7 @@ namespace VNEngine
     {
         public Character character;
         public string locationScene;
+        public bool addLocationToMap = true;
 
         // Called initially when the node is run, put most of your logic here
         public override void Run_Node()
@@ -19,11 +20,24 @@ namespace VNEngine
             CharacterLocation characterLocation = new CharacterLocation();
             characterLocation.character = character;
             characterLocation.location = locationScene;
-
             if (!characterLocations.Contains(characterLocation))
             {
                 Debug.Log("Adding Character Pin to Map : " + character + " at " + locationScene);
-                characterLocations.Add(characterLocation);
+                if (addLocationToMap)
+                {
+                    characterLocations.Add(characterLocation);
+                }
+                else
+                {
+                    for (int i = 0; i < characterLocations.Count; i++)
+                    {
+                        if(locationScene == characterLocations[i].location && character == characterLocations[i].character)
+                        {
+                            characterLocations.RemoveAt(i);
+                            break;
+                        }
+                    }
+                }
                 PlayerPrefsExtra.SetList("characterLocations", characterLocations);
             }
             else

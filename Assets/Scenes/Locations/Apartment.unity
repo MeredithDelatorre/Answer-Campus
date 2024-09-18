@@ -75244,7 +75244,7 @@ MonoBehaviour:
   Button_Events:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1992477030}
         m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
         m_MethodName: Start_Conversation
         m_Mode: 1
@@ -83693,7 +83693,7 @@ MonoBehaviour:
   Button_Events:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2092711322}
         m_TargetAssemblyTypeName: VNEngine.ConversationManager, Assembly-CSharp
         m_MethodName: Start_Conversation
         m_Mode: 1

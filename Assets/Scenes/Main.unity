@@ -541,7 +541,7 @@ MonoBehaviour:
   timestamp: 
   minutes: 0
   played: 0
-  debug: 0
+  characterWaiting: {fileID: 0}
 --- !u!1 &381082113 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2469794033408119251, guid: 156e6c4705f8bc747a7e780e51a69dbb, type: 3}
@@ -9399,6 +9399,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 339042917}
+        m_TargetAssemblyTypeName: Location, Assembly-CSharp
+        m_MethodName: ClearPlayerPrefs
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 339042917}
         m_TargetAssemblyTypeName: Location, Assembly-CSharp
         m_MethodName: ChooseScene

@@ -91,7 +91,10 @@ public class Location : MonoBehaviour
         SceneManager.LoadScene(scene);
 
     }
-
+    public void ClearPlayerPrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
     public void SetTimestamp()
     {
         timestamp = DateTime.Now.ToString("f");

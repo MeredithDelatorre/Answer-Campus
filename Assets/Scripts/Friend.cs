@@ -5,17 +5,18 @@ using UnityEngine.UI;
 using VNEngine;
 
 [System.Serializable]
-public enum Relationship { NONE, NEGATIVE, POSITIVE, FRIEND };
+public enum Relationship { FRIEND, BFF };
 [System.Serializable]
-public enum Character { NONE, LEILANI, DEEPAK, SOFIA, BREANNA, MATTHEW, BEAU, ERIC, JIAH, CHARLI, JOSE, BRAD}
+public enum Character { NONE, LEILANI, DEEPAK, SOFIA, BREANNA, MATTHEW, BEAU, ERIC, JIAH, CHARLI, JOSE, BRAD }
 
+/*
 [System.Serializable]
 public struct FriendRelationship
 {
     public string friend;
     public Relationship relationship;
 }
-
+*/
 
 [System.Serializable]
 public class Friend : MonoBehaviour
@@ -24,6 +25,7 @@ public class Friend : MonoBehaviour
     public Relationship relationship;
     public string characterName;
     public string scene;
+    //image might be obsolete
     public Image status;
     public Sprite[] statusTypes;
 

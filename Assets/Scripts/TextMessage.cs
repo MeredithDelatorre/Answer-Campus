@@ -8,25 +8,25 @@ public class TextMessage : System.IEquatable<TextMessage>
     public string message;
     public string location;
 
-    public List<TextMessage> positiveResponseBranch;
-    public List<TextMessage> negativeResponseBranch;
+    public TextMessage[] positiveResponseBranch;
+    public TextMessage[] negativeResponseBranch;
 
     public TextMessage(Character from, string message, string location)
     {
         this.from = from;
         this.message = message;
         this.location = location;
-        positiveResponseBranch = new List<TextMessage>();
-        negativeResponseBranch = new List<TextMessage>();
+        //positiveResponseBranch = new List<TextMessage>();
+        //negativeResponseBranch = new List<TextMessage>();
     }
 
     public TextMessage GetNextMessage(bool isPositiveResponse)
     {
-        if (isPositiveResponse && positiveResponseBranch.Count > 0)
+        if (isPositiveResponse && positiveResponseBranch.Length > 0)
         {
             return positiveResponseBranch[0];
         }
-        else if (!isPositiveResponse && negativeResponseBranch.Count > 0)
+        else if (!isPositiveResponse && negativeResponseBranch.Length > 0)
         {
             return negativeResponseBranch[0];
         }

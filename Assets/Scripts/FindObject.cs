@@ -10,11 +10,12 @@ public class FindObject : MonoBehaviour
     public NodeSearch search;
     // Start is called before the first frame update
 
-    public void Found(ItemOutcome outcome)
+    //TODO: this is obsolete but still used in Linguistic Gaps
+    public void Found()
     {
         search.Finish_Node();
-        Debug.Log("Clicked on " + outcome.title);
-        outcome.gameObject.SetActive(false);
+        
+        //outcome.gameObject.SetActive(false);
         ResetSearch();
         gameObject.SetActive(false);
 

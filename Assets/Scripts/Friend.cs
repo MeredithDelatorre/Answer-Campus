@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using VNEngine;
 
 [System.Serializable]
 public enum Relationship { NONE, NEGATIVE, POSITIVE, FRIEND };
@@ -15,43 +16,6 @@ public struct FriendRelationship
     public Relationship relationship;
 }
 
-[System.Serializable]
-public struct TextMessage : System.IEquatable<TextMessage>
-{
-    public Character from;
-    public string message;
-    public string location;
-
-    public bool Equals(TextMessage other)
-    {
-        // Compare all fields
-        return from.Equals(other.from) &&
-               message == other.message &&
-               location == other.location;
-    }
-    // Override Equals method
-    public override bool Equals(object obj)
-    {
-        if (obj is TextMessage otherMessage)
-            return Equals(otherMessage);
-
-        return false;
-    }
-
-    // Override GetHashCode method
-    public override int GetHashCode()
-    {
-        unchecked
-        {
-            int hash = 17;
-            hash = hash * 23 + from.GetHashCode();
-            hash = hash * 23 + (message?.GetHashCode() ?? 0);
-            hash = hash * 23 + (location?.GetHashCode() ?? 0);
-            return hash;
-        }
-    }
-
-}
 
 [System.Serializable]
 public class Friend : MonoBehaviour
@@ -63,13 +27,54 @@ public class Friend : MonoBehaviour
     public Image status;
     public Sprite[] statusTypes;
 
+    private int relationshipLevel;
 
+    // Start is called before the first frame update
     // Start is called before the first frame update
     void Start()
     {
-        int current_status = PlayerPrefs.GetInt(characterName, 0);
-        Debug.Log(characterName + ": " + current_status);
-        status.sprite = statusTypes[current_status];        
+        // Load relationship status from StatsManager
+        relationshipLevel = (int)StatsManager.Get_Numbered_Stat(characterName + "_relationship_level");
+        status.sprite = statusTypes[relationshipLevel];
+
+        // Load friendship status
+        if (StatsManager.Get_Boolean_Stat(characterName + "_is_friend"))
+        {
+            Debug.Log(characterName + " is already a contact.");
+        }
+        else
+        {
+            Debug.Log(characterName + " is not a contact yet.");
+        }
+    }
+
+    // Add this friend to the player's contact list
+    public void AddToContacts()
+    {
+        StatsManager.Set_Boolean_Stat(characterName + "_is_friend", true);
+        Debug.Log(characterName + " added to contacts.");
+    }
+
+    // Update the relationship level based on player's interaction
+    public void UpdateRelationship(Relationship newStatus)
+    {
+        relationship = newStatus;
+        int newStatusIndex = (int)newStatus;
+        StatsManager.Set_Numbered_Stat(characterName + "_relationship_level", newStatusIndex); // Save new level
+        status.sprite = statusTypes[newStatusIndex];  // Update visual icon
+    }
+
+    // Set the current scene for the friend
+    public void SetCurrentScene(string currentScene)
+    {
+        scene = currentScene;
+        StatsManager.Set_String_Stat(characterName + "_last_scene", scene);
+    }
+
+    // Load the last scene the friend appeared in
+    public string GetLastScene()
+    {
+        return StatsManager.Get_String_Stat(characterName + "_last_scene");
     }
 
 }

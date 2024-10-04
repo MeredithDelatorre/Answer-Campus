@@ -19,8 +19,7 @@ public struct FriendRelationship
 */
 
 [System.Serializable]
-public class Friend : MonoBehaviour
-{
+public class Friend { 
 
     public Relationship relationship;
     public string characterName;

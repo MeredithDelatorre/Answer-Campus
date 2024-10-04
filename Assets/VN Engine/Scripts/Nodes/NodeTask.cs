@@ -6,14 +6,25 @@ using UnityEngine.UI;
 namespace VNEngine
 {
     // Not used in real code. Merely a template to copy and paste from when creating new nodes.
-    public class NodeCheckpoint : Node
+    public class NodeTask : Node
     {
-        public int week;
+        public string taskTitle;
+        public bool complete;
+
         // Called initially when the node is run, put most of your logic here
         public override void Run_Node()
         {
-            StatsManager.Set_Numbered_Stat("week", week);
-            CheckpointManager.SaveCheckpoint();
+
+            if(!complete)
+            {
+                TaskManager.Instance.AssignTask(taskTitle);
+            }
+            else
+            {
+                TaskManager.Instance.CompleteTask(taskTitle);
+            }
+
+
             Finish_Node();
         }
 

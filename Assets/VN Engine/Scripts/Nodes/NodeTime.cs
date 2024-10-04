@@ -6,14 +6,23 @@ using UnityEngine.UI;
 namespace VNEngine
 {
     // Not used in real code. Merely a template to copy and paste from when creating new nodes.
-    public class NodeCheckpoint : Node
+    public class NodeTime : Node
     {
-        public int week;
+        public float weeksPassed;
+
         // Called initially when the node is run, put most of your logic here
         public override void Run_Node()
         {
-            StatsManager.Set_Numbered_Stat("week", week);
-            CheckpointManager.SaveCheckpoint();
+
+            if(StatsManager.Numbered_Stat_Exists("weeks"))
+            {
+                StatsManager.Add_To_Numbered_Stat("weeks", weeksPassed);
+            }
+            else
+            {
+                StatsManager.Set_Numbered_Stat("weeks", weeksPassed);
+            }
+
             Finish_Node();
         }
 

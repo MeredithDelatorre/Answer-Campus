@@ -1,39 +1,30 @@
-
-using System.Collections.Generic;
+using System;
 
 [System.Serializable]
 public class TextMessage : System.IEquatable<TextMessage>
 {
-    public Character from;
-    public string message;
-    public string location;
+    public Character from;        // Who sent the message (Character.NONE for player)
+    public string message;        // The content of the message
+    public string location;       // Where the message was sent or refers to
 
-    public TextMessage[] positiveResponseBranch;
-    public TextMessage[] negativeResponseBranch;
+    public TextMessage positiveResponseBranch; // The single follow-up message if the player responds positively
+    public TextMessage negativeResponseBranch; // The single follow-up message if the player responds negatively
 
+    // Constructor
     public TextMessage(Character from, string message, string location)
     {
         this.from = from;
         this.message = message;
         this.location = location;
-        //positiveResponseBranch = new List<TextMessage>();
-        //negativeResponseBranch = new List<TextMessage>();
     }
 
+    // Retrieve the next message based on the player's choice (positive or negative)
     public TextMessage GetNextMessage(bool isPositiveResponse)
     {
-        if (isPositiveResponse && positiveResponseBranch.Length > 0)
-        {
-            return positiveResponseBranch[0];
-        }
-        else if (!isPositiveResponse && negativeResponseBranch.Length > 0)
-        {
-            return negativeResponseBranch[0];
-        }
-        return null; // This is allowed because classes can be null
+        return isPositiveResponse ? positiveResponseBranch : negativeResponseBranch;
     }
 
-    // Equality checks
+    // Equality checks for TextMessage
     public bool Equals(TextMessage other)
     {
         return from == other.from && message == other.message && location == other.location;

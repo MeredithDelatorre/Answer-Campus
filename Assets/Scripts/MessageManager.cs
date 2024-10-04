@@ -1,9 +1,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using VNEngine;
+
 public class MessageManager : MonoBehaviour
 {
+    // Singleton instance of MessageManager
+    public static MessageManager Instance { get; private set; }
+
     public static Dictionary<string, List<TextMessage>> friendConversations = new Dictionary<string, List<TextMessage>>();
+
+    private void Awake()
+    {
+        // Implement singleton pattern
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);  // Make this object persistent across scenes
+        }
+        else
+        {
+            Destroy(gameObject);  // Destroy extra instances
+        }
+    }
 
     // Add a new message to a specific friend's conversation
     public static void SendTextMessage(string friendName, TextMessage message)
@@ -42,7 +60,6 @@ public class MessageManager : MonoBehaviour
             string messageContent = StatsManager.Get_String_Stat(friendName + "_message_" + i);
             Character from = (Character)System.Enum.Parse(typeof(Character), friendName.ToUpper());
             string location = "Unknown"; //TODO: find last location
-            // Assuming you have a way to reconstruct a TextMessage from the content:
             TextMessage message = new TextMessage(from, messageContent, location);
             messages.Add(message);
             i++;

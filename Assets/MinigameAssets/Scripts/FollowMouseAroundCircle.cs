@@ -1,3 +1,7 @@
+/*
+ * FollowMouseAroundCircle - allows player to control the targeter's rotation according to their mouse's position  
+ */
+
 using UnityEngine;
 
 public class FollowMouseAroundCircle : MonoBehaviour
@@ -14,11 +18,11 @@ public class FollowMouseAroundCircle : MonoBehaviour
         // Calculate the direction from the main circle to the mouse
         Vector3 direction = (mousePosition - mainCircle.position).normalized;
 
-        // Position the fragment at the correct distance along the calculated direction
+        // Position the targeter at the correct distance along the calculated direction
         transform.position = mainCircle.position + direction * distanceFromCenter;
 
         // Rotate the targeter to face outward from the center
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle - 90);  // Adjust based on the orientation
+        transform.rotation = Quaternion.Euler(0, 0, angle - 90); 
     }
 }

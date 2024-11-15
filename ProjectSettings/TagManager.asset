@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayerTargeter
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,7 @@ TagManager:
     locked: 0
   - name: targeter
     uniqueID: 3887805849
+    locked: 0
+  - name: Letters
+    uniqueID: 2373278843
     locked: 0

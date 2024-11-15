@@ -51,15 +51,8 @@ public class Letter : MonoBehaviour
             {
                 // Incorrect letter hit
                 Debug.Log("Incorrect letter " + letterChar + " confirmed by spawner.");
-                StartCoroutine(DestroyWithDelay());  // Delay destroy to ensure logging
+                Destroy(gameObject); 
             }
         }
     }
-
-    private IEnumerator DestroyWithDelay()
-    {
-        yield return new WaitForSeconds(0.1f);  // Small delay to ensure log output
-        Destroy(gameObject);
-    }
-
 }

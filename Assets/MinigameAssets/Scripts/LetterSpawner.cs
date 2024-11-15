@@ -5,6 +5,8 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic;
+
 
 public class LetterSpawner : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class LetterSpawner : MonoBehaviour
 
     private int currentIndex = 0;       // Index of the next letter to hit
     private readonly string alphabet = "abcdefghijklmnopqrstuvwxyz";  // Pool of random letters
+    private List<GameObject> spawnedLetters = new List<GameObject>(); // List to track spawned letters
 
     private void Start()
     {
@@ -28,7 +31,7 @@ public class LetterSpawner : MonoBehaviour
             // Randomly decide to spawn a random letter or needed letter, currently 25% chance, as long as the word isn't complete yet
             bool spawnNeededLetter = Random.Range(0f, 1f) < 0.25f && currentIndex < targetWord.Length;
 
-            char letterToSpawn; 
+            char letterToSpawn;
 
             if (spawnNeededLetter)
             {
@@ -44,6 +47,8 @@ public class LetterSpawner : MonoBehaviour
             letterObj.GetComponentInChildren<TextMeshPro>().text = letterToSpawn.ToString();
             // Move letters towards center circle with random speed (1 to 3 units/sec))
             letterObj.GetComponent<Letter>().Initialize(centerCircle.position, Random.Range(1f, 3f), letterToSpawn, this);
+
+            spawnedLetters.Add(letterObj); //Add spawned letter to list
 
             // Wait for the spawn interval before spawning the next letter
             yield return new WaitForSeconds(spawnInterval);
@@ -61,11 +66,35 @@ public class LetterSpawner : MonoBehaviour
     // Check if the letter the player hit is the next letter required 
     public bool CheckCorrectLetter(char letter)
     {
+        Debug.Log($"Checking letter: {letter}, current target: {targetWord[currentIndex]}, index: {currentIndex}");
+
         if (currentIndex < targetWord.Length && targetWord[currentIndex] == letter)
         {
-            currentIndex++; // Go to next letter 
-            return true;  // Return true for correct letter
+            currentIndex++;
+            Debug.Log("Correct! Moving to next letter, new index is " + currentIndex);
+
+            // If the word is completed, clear all letters
+            if (currentIndex >= targetWord.Length)
+            {
+                ClearAllLetters();
+            }
+
+            return true;
         }
-        return false;  // Return false for incorrect letter
+        Debug.Log("Incorrect! Letter did not match.");
+        return false;
     }
+
+    // Clear all letters once player completes the word 
+    private void ClearAllLetters()
+    {
+        Debug.Log("Word completed! Clearing all letters.");
+
+        foreach (GameObject letterObj in spawnedLetters)
+        {
+            Destroy(letterObj); // Destroy each letter object
+        }
+        spawnedLetters.Clear(); // Clear the list of references
+    }
+
 }

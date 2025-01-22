@@ -10,10 +10,17 @@ using System.Collections.Generic;
 
 public class LetterSpawner : MonoBehaviour
 {
-    public GameObject letterPrefab;     // Prefab for the letters
-    public Transform centerCircle;      // Center Circle position, where letters will move towards
-    public string targetWord = "";      // The word to be formed
-    public float spawnInterval = 1.0f;  // Time interval between spawns
+    [SerializeField]
+    private GameObject letterPrefab;     // Prefab for the letters
+    
+    [SerializeField]
+    private Transform centerCircle;      // Center Circle position, where letters will move towards
+
+    [SerializeField]
+    private string targetWord = "";      // The word to be formed
+
+    [SerializeField]
+    private float spawnInterval;  // Time interval between spawns
 
     private int currentIndex = 0;       // Index of the next letter to hit
     private readonly string alphabet = "abcdefghijklmnopqrstuvwxyz";  // Pool of random letters

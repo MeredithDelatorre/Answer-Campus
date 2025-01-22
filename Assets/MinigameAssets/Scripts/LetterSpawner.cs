@@ -10,24 +10,53 @@ using System.Collections.Generic;
 
 public class LetterSpawner : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject letterPrefab;     // Prefab for the letters
+    [SerializeField] private GameObject letterPrefab;     // Prefab for the letters
+
+    [SerializeField] private Transform centerCircle;      // Center Circle position, where letters will move towards
+
+    [SerializeField] private List<WordDefinition> possibleWords;    // List of possible word-definition pairs
     
-    [SerializeField]
-    private Transform centerCircle;      // Center Circle position, where letters will move towards
+    // UI Elements ------------------------------------------
+    [SerializeField] private TextMeshProUGUI targetWordText; 
+    [SerializeField] private TextMeshProUGUI definitionText;
+    // -------------------------------------------------------
 
-    [SerializeField]
-    private string targetWord = "";      // The word to be formed
+    [SerializeField] private float spawnInterval;  // Time interval between spawns
 
-    [SerializeField]
-    private float spawnInterval;  // Time interval between spawns
-
+    
+    private string targetWord; 
+    private string targetDefinition; 
     private int currentIndex = 0;       // Index of the next letter to hit
     private readonly string alphabet = "abcdefghijklmnopqrstuvwxyz";  // Pool of random letters
     private List<GameObject> spawnedLetters = new List<GameObject>(); // List to track spawned letters
 
     private void Start()
     {
+        // 1) Pick a random entry from the list
+        if (possibleWords != null && possibleWords.Count > 0)
+        {
+            int randIndex = Random.Range(0, possibleWords.Count);
+            WordDefinition chosen = possibleWords[randIndex];
+
+            // 2) Assign the chosen word & definition
+            targetWord = chosen.word;
+            targetDefinition = chosen.definition;
+        }
+        else
+        {
+            Debug.LogWarning("No WordDefinition entries found. Using fallback values.");
+            targetWord = "fallback";
+            targetDefinition = "No definition available.";
+        }
+
+        // 3) Update any UI Text elements to show the chosen word and definition
+        if (targetWordText != null)
+            targetWordText.text = targetWord;
+
+        if (definitionText != null)
+            definitionText.text = "Definition: " + targetDefinition;
+
+        // 4) Now spawn letters for the chosen word
         StartCoroutine(SpawnLetters());
     }
 

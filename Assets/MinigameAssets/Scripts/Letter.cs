@@ -26,33 +26,33 @@ public class Letter : MonoBehaviour
         // Move letter towards the center
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
 
-        // Check if it reaches the center and destroy if so
-        if (Vector3.Distance(transform.position, targetPosition) < 0.1f) 
-        {
-            Destroy(gameObject);
-        }
-    }
-
-
-    // Detects collisions with the player targeter and processes result for correct/incorrent hit 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("PlayerTargeter")) // Check if the object it collided with is the targeter
-        {
-            Debug.Log("Letter hit detected: " + letterChar);  
+        if (Vector3.Distance(transform.position, targetPosition) < 0.1f) {
+                    Debug.Log("Reached the center : " + letterChar);  
 
             if (spawner.CheckCorrectLetter(letterChar)) // Check if it is the correct letter
             {
-                // Correct letter hit
-                Debug.Log("Correct letter " + letterChar + " confirmed by spawner.");
+                // Correct letter 
+                Debug.Log("Correct letter " + letterChar + " reached the center.");
                 Destroy(gameObject);
             }
             else
             {
-                // Incorrect letter hit
-                Debug.Log("Incorrect letter " + letterChar + " confirmed by spawner.");
+                // Incorrect letter 
+                Debug.Log("Incorrect letter " + letterChar + " reached the center.");
                 Destroy(gameObject); 
             }
         }
     }
+
+
+    // Detects collisions with the player targeter and processes result for hit 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("PlayerTargeter")) // Check if the object it collided with is the targeter
+        {
+            Debug.Log("Destroying letter hit by targeter: " + letterChar);  
+            Destroy(gameObject); 
+        }
+    }
 }
+

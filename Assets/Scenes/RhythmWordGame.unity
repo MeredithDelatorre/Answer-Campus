@@ -626,6 +626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200338170}
   - component: {fileID: 1200338171}
+  - component: {fileID: 1200338172}
   m_Layer: 0
   m_Name: LetterSpawner
   m_TagString: Untagged
@@ -655,9 +656,38 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200338168}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab9574b3269d7ca4aa01abcaa2bd89ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterPrefab: {fileID: 237249196}
+  centerCircle: {fileID: 357694971}
+  possibleWords:
+  - word: conflict
+    definition: A serious disagreement or argument.
+  - word: expand
+    definition: 'To increase in size, number, or importance. '
+  - word: effort
+    definition: A determined attempt to achieve something.
+  - word: assist
+    definition: To help or give support.
+  - word: fragile
+    definition: Easily broken or damaged.
+  targetWordText: {fileID: 636098431}
+  targetWordUnderline: {fileID: 1992411708}
+  definitionText: {fileID: 341832849}
+  spawnInterval: 1
+--- !u!114 &1200338172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200338168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7da63afcad2f74832917310d05ef5318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   letterPrefab: {fileID: 237249196}
@@ -925,6 +955,7 @@ GameObject:
   - component: {fileID: 1861272936}
   - component: {fileID: 1861272940}
   - component: {fileID: 1861272939}
+  - component: {fileID: 1861272941}
   m_Layer: 0
   m_Name: Targeter
   m_TagString: PlayerTargeter
@@ -1006,7 +1037,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1861272935}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b45a277e024f38b46bf066be9716fc7c, type: 3}
   m_Name: 
@@ -1058,6 +1089,18 @@ PolygonCollider2D:
       - {x: 0.33614558, y: 1.246179}
       - {x: 0.40548074, y: 1.2251667}
       - {x: 0.4893525, y: 1.3651731}
+--- !u!114 &1861272941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861272935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9c7c8c965b54084bf6a48744d75837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1992411706
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Objects
   - 
   - 
   - 
@@ -39,8 +39,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: canvas
+    uniqueID: 1026449867
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: circle
+    uniqueID: 3676459515
     locked: 0
   - name: targeter
     uniqueID: 3887805849

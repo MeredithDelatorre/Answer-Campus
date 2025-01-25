@@ -14,6 +14,7 @@ public class LetterSpawner : MonoBehaviour
     [SerializeField] protected TextMeshProUGUI definitionText;
 
     [SerializeField] protected float spawnInterval; // Time interval between spawns
+    [SerializeField] protected float timeBeforeNextWord = 2f; // Delay before next word
 
     protected string targetWord = "";
     protected string targetDefinition;
@@ -23,27 +24,52 @@ public class LetterSpawner : MonoBehaviour
 
     protected virtual void Start()
     {
-        if (possibleWords != null && possibleWords.Count > 0)
-        {
+        InitializeGame();
+    }
+
+    // Selects a new word, sets up UI, and starts spawning letters
+    protected virtual void InitializeGame() {
+
+        PickRandomWord();
+        UpdateUI();
+
+        // Reset index for the new word
+        currentIndex = 0;
+
+        // Clear any lingering letters 
+        ClearAllLetters();
+
+        // Start spawning letters for the new word
+        StartCoroutine(SpawnLetters());
+    }
+
+    // Picks a random word-definition pair from the list
+    protected void PickRandomWord() {
+
+        if (possibleWords != null && possibleWords.Count > 0) {
             int randIndex = Random.Range(0, possibleWords.Count);
             WordDefinition chosen = possibleWords[randIndex];
             targetWord = chosen.word;
             targetDefinition = chosen.definition;
-        }
-        else
-        {
-            Debug.LogWarning("No WordDefinition entries found. Using fallback values.");
+        } else {
+            Debug.LogWarning("No WordDefinition entries found. Using fallback word.");
             targetWord = "fallback";
             targetDefinition = "No definition available.";
         }
+    }
 
-        if (targetWordUnderline != null)
-            UnderlinedUI();
+    // Updates the UI texts for underline and definition
+    protected void UpdateUI() {
+        // Clear the underline text first
+        if (targetWordUnderline != null) {
+            targetWordUnderline.text = "";
+            UnderlinedUI(); // Build underscore placeholders for each letter.
+        }
 
-        if (definitionText != null)
+        // Update definition text
+        if (definitionText != null) {
             definitionText.text = "Definition: " + targetDefinition;
-
-        StartCoroutine(SpawnLetters());
+        }
     }
 
     protected virtual IEnumerator SpawnLetters()
@@ -84,13 +110,25 @@ public class LetterSpawner : MonoBehaviour
             }
 
             currentIndex++;
+
+            // if word is complete, clear all letters and prepare for new word 
             if (currentIndex >= targetWord.Length)
             {
                 ClearAllLetters();
+                StartCoroutine(WaitAndStartNextWord());
             }
             return true;
         }
         return false;
+    }
+
+    // Wait a few seconds, then start the game again with a new word
+    protected IEnumerator WaitAndStartNextWord() {
+        // Wait for timeBeforeNextWord seconds
+        yield return new WaitForSeconds(timeBeforeNextWord);
+
+        // Now initialize a fresh word
+        InitializeGame();
     }
 
     protected virtual void ClearAllLetters()

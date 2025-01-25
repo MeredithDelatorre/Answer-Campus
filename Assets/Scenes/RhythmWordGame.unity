@@ -561,12 +561,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -627,7 +627,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1200338170}
   - component: {fileID: 1200338171}
-  - component: {fileID: 1200338172}
   m_Layer: 6
   m_Name: LetterSpawner
   m_TagString: Untagged
@@ -657,57 +656,29 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200338168}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab9574b3269d7ca4aa01abcaa2bd89ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  letterPrefab: {fileID: 237249196}
-  centerCircle: {fileID: 357694971}
-  possibleWords:
-  - word: conflict
-    definition: A serious disagreement or argument.
-  - word: expand
-    definition: 'To increase in size, number, or importance. '
-  - word: effort
-    definition: A determined attempt to achieve something.
-  - word: assist
-    definition: To help or give support.
-  - word: fragile
-    definition: Easily broken or damaged.
-  targetWordText: {fileID: 636098431}
-  targetWordUnderline: {fileID: 1992411708}
-  definitionText: {fileID: 341832849}
-  spawnInterval: 1
---- !u!114 &1200338172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1200338168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7da63afcad2f74832917310d05ef5318, type: 3}
+  m_Script: {fileID: 11500000, guid: 41947f3886c938a49b74e521f003e130, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   letterPrefab: {fileID: 237249196}
   centerCircle: {fileID: 357694971}
   possibleWords:
-  - word: conflict
-    definition: A serious disagreement or argument.
-  - word: expand
-    definition: 'To increase in size, number, or importance. '
   - word: effort
     definition: A determined attempt to achieve something.
-  - word: assist
-    definition: To help or give support.
+  - word: expand
+    definition: To increase in size, number, or importance.
+  - word: conflict
+    definition: A serious disagreement or argument.
   - word: fragile
     definition: Easily broken or damaged.
-  targetWordText: {fileID: 636098431}
+  - word: courage
+    definition: The ability to do something that frightens you.
   targetWordUnderline: {fileID: 1992411708}
   definitionText: {fileID: 341832849}
   spawnInterval: 1
+  timeBeforeNextWord: 2
+  letterTravelSpeed: 2
 --- !u!1 &1203681520
 GameObject:
   m_ObjectHideFlags: 0

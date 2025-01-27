@@ -8,24 +8,36 @@ public class DirectionalTargeterBehavior : MonoBehaviour
     private Quaternion leftRotation = Quaternion.Euler(0, 0, 90);
     private Quaternion rightRotation = Quaternion.Euler(0, 0, 270);
 
+    public float rotationSpeed = 5f; // Speed of rotation
+    private Quaternion targetRotation; // Target rotation
+
+    void Start()
+    {
+        // Set the initial target rotation to the current rotation
+        targetRotation = transform.rotation;
+    }
+
     void Update()
     {
-        // Check for input and apply the appropriate rotation
+        // Check for input and set the appropriate target rotation
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            transform.rotation = upRotation;
+            targetRotation = upRotation;
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            transform.rotation = downRotation;
+            targetRotation = downRotation;
         }
         else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            transform.rotation = leftRotation;
+            targetRotation = leftRotation;
         }
         else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            transform.rotation = rightRotation;
+            targetRotation = rightRotation;
         }
+
+        // Smoothly interpolate towards the target rotation
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 }

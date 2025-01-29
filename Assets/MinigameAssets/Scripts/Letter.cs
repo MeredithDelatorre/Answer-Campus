@@ -3,12 +3,17 @@
  */
 
 using UnityEngine;
+using VNEngine;
 
 public class Letter : MonoBehaviour {
     private Vector3 targetPosition; // Position where letters will move towards (center)
     private float speed;            // Movement speed of the letter
     private char letterChar;        // The character represented by the letter object
     private LetterSpawner spawner;  // Reference to the LetterSpawner
+
+    // Audio Clips
+    [SerializeField] private AudioClip correctClip;
+    [SerializeField] private AudioClip incorrectClip;
 
     public void Initialize(Vector3 targetPosition, float speed, char letterChar, LetterSpawner spawner) {
         this.targetPosition = targetPosition;
@@ -28,10 +33,16 @@ public class Letter : MonoBehaviour {
             {
                 // Correct letter
                 Debug.Log("Correct letter " + letterChar + " reached the center.");
+
+                AudioManager.Instance.PlaySFX(correctClip);
+
                 Destroy(gameObject);
             } else {
                 // Incorrect letter
                 Debug.Log("Incorrect letter " + letterChar + " reached the center.");
+
+                AudioManager.Instance.PlaySFX(incorrectClip);
+
                 Destroy(gameObject);
             }
         }
@@ -40,16 +51,31 @@ public class Letter : MonoBehaviour {
     // Detects collisions with the active collider (eraser or tip)
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("EraserCollider")) {
+
+            // Check if the letter is in the word without revealing
+            bool letterIsInWord = spawner.IsLetterInWord(letterChar);
+
+            if (letterIsInWord) {
+                // If it is in the word, we just erased a correct letter, so play incorrect sound
+                AudioManager.Instance.PlaySFX(incorrectClip);
+            } else {
+                // If it's NOT in the word, erasing is correct
+                AudioManager.Instance.PlaySFX(correctClip);
+            }
+
             // Destroy the letter when hitting the eraser in erase mode 
             Destroy(gameObject);
+
         } else if (other.CompareTag("TipCollider")) {
             // Check if the letter is correct and then destroy it when hitting the pencil tip in writing mode 
             if (spawner.CheckCorrectLetter(letterChar)) {
-                Destroy(gameObject);
+                AudioManager.Instance.PlaySFX(correctClip);
             } else {
                 // In writing mode and letter was incorrect 
-                Destroy(gameObject);
+                AudioManager.Instance.PlaySFX(incorrectClip);
             }
+
+            Destroy(gameObject);
         }
     }
 }

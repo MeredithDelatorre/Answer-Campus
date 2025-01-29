@@ -134,4 +134,15 @@ public class LetterSpawner : MonoBehaviour {
             targetWordUnderline.text += "_";
         }
     }
+
+    public bool IsLetterInWord(char letter) {
+        // Check if the letter is still unrevealed in the word
+        for (int i = 0; i < targetWord.Length; i++) {
+            // If it's in targetWord and not revealed yet (underscore in the underline)
+            if (targetWord[i] == letter && targetWordUnderline.text[i] == '_') {
+                return true;
+            }
+        }
+        return false;
+    }
 }

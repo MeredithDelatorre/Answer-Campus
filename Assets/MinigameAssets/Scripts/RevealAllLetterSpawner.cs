@@ -89,4 +89,15 @@ public class RevealAllLetterSpawner : LetterSpawner {
         float radius = 10f; // Fixed radius for spawn positions
         return new Vector3(Mathf.Cos(angle) * radius, Mathf.Sin(angle) * radius, 0f);
     }
+
+    public bool IsLetterInWord(char letter) {
+        // Check if the letter is still unrevealed in the word
+        for (int i = 0; i < targetWord.Length; i++) {
+            // If it's in targetWord and not revealed yet (underscore in the underline)
+            if (targetWord[i] == letter && targetWordUnderline.text[i] == '_') {
+                return true;
+            }
+        }
+        return false;
+    }
 }

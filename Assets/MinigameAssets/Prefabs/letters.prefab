@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3258ba0e88a314d44a0e37f97edc59a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eraserClip: {fileID: 8300000, guid: 7fa5bd0569a32624b81f94ca4713aa4a, type: 3}
 --- !u!1 &8156470963423828699
 GameObject:
   m_ObjectHideFlags: 0

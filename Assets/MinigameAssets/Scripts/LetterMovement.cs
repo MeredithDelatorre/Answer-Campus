@@ -11,6 +11,7 @@ public class LetterMovement : MonoBehaviour {
     private char letterChar;
     private Vector3 targetPos;
     private float moveSpeed;
+    public AudioClip eraserClip;
 
     /// <summary>
     /// Called right after instantiating a Letter prefab,
@@ -50,7 +51,10 @@ public class LetterMovement : MonoBehaviour {
     /// </summary>
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("EraserCollider")) {
-            // Eraser found, destroy letter. You can also add SFX if desired.
+
+            if (AudioManager.Instance != null && eraserClip != null) {
+                AudioManager.Instance.PlaySFX(eraserClip);
+            }
             Destroy(gameObject);
         }
     }

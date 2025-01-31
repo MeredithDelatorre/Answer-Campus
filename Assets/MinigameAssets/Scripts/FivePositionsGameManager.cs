@@ -12,7 +12,8 @@ public class FivePositionsGameManager : MonoBehaviour {
     public Transform[] boxPositions = new Transform[5];
     public TextMeshProUGUI[] boxLetterDisplays = new TextMeshProUGUI[5];
     public TextMeshProUGUI targetDefinitionText;
-    public TextMeshProUGUI countdownText;  // New countdown UI reference
+    public TextMeshProUGUI countdownText;
+    public TextMeshProUGUI scoreText; // New score UI reference
 
     [Header("Prefabs/Assets")]
     public GameObject letterPrefab;
@@ -31,7 +32,10 @@ public class FivePositionsGameManager : MonoBehaviour {
     private bool[] boxFilled = new bool[5];
     private string alphabet = "abcdefghijklmnopqrstuvwxyz";
 
+    private int score = 0; // Score counter
+
     private void Start() {
+        UpdateScoreUI();
         StartNewRound();
     }
 
@@ -140,6 +144,8 @@ public class FivePositionsGameManager : MonoBehaviour {
         Destroy(letterObj);
 
         if (AllBoxesFilled()) {
+            score++; // Increase score
+            UpdateScoreUI(); // Update score UI
             StartCoroutine(RestartGameRoutine());
         }
     }
@@ -188,5 +194,11 @@ public class FivePositionsGameManager : MonoBehaviour {
         }
 
         return null;
+    }
+
+    private void UpdateScoreUI() {
+        if (scoreText != null) {
+            scoreText.text = "" + score;
+        }
     }
 }
